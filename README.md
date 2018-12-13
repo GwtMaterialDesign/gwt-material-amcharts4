@@ -7,8 +7,7 @@ GwtMaterialDesign plus [AmCharts](https://www.amcharts.com/) Version 4 provides 
 
 ## Demo
 * https://gwtmaterialdesign.github.io/gmd-am4charts-demo/
-* https://github.com/GwtMaterialDesign/gmd-am4charts-demo
-
+* [Repository](https://github.com/GwtMaterialDesign/gmd-am4charts-demo)
 ## Documentation
 AmCharts Official Documentation can be found [here](https://docs.amcharts.com/3/javascriptcharts/AmChart)
 
