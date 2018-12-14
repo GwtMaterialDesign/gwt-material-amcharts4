@@ -1,15 +1,15 @@
 <img src="https://i.imgur.com/1q1K6BU.png" width="60%"/>
 
-GwtMaterialDesign plus [AmCharts](https://www.amcharts.com/) Version 4 provides you professional and nice looking [charts](https://www.amcharts.com/javascript-charts/), [maps](https://www.amcharts.com/javascript-maps/) and [stock charts](https://www.amcharts.com/stock-chart/).
+GwtMaterialDesign plus [AmCharts](https://www.amcharts.com/) Version 4 provides you professional and nice looking charts.
 
 
-[![Build Status](https://travis-ci.org/GwtMaterialDesign/gwt-material-amcharts.svg?branch=master)](https://travis-ci.org/GwtMaterialDesign/gwt-material-amcharts) [![Join the chat at https://gitter.im/GwtMaterialDesign/gwt-material](https://img.shields.io/badge/GITTER-join%20chat-green.svg)](https://gitter.im/GwtMaterialDesign/gwt-material?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build Status](https://travis-ci.org/GwtMaterialDesign/gwt-material-amcharts.svg?branch=master)](https://travis-ci.org/GwtMaterialDesign/gwt-material-am4charts) [![Join the chat at https://gitter.im/GwtMaterialDesign/gwt-material](https://img.shields.io/badge/GITTER-join%20chat-green.svg)](https://gitter.im/GwtMaterialDesign/gwt-material?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## Demo
 * https://gwtmaterialdesign.github.io/gmd-am4charts-demo/
 * [Repository](https://github.com/GwtMaterialDesign/gmd-am4charts-demo)
 ## Documentation
-AmCharts Official Documentation can be found [here](https://docs.amcharts.com/3/javascriptcharts/AmChart)
+AmCharts V4 Official Documentation can be found [here](https://www.amcharts.com/docs/v4/)
 
 
 ## Maven
@@ -17,7 +17,7 @@ AmCharts Official Documentation can be found [here](https://docs.amcharts.com/3/
 ```xml
 <dependency>
     <groupId>com.github.gwtmaterialdesign</groupId>
-    <artifactId>gwt-material-amcharts</artifactId>
+    <artifactId>gwt-material-am4charts</artifactId>
     <version>2.2</version>
 </dependency>
 ```
