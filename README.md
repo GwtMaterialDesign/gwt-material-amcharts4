@@ -13,7 +13,7 @@ AmCharts Official Documentation can be found [here](https://docs.amcharts.com/3/
 
 
 ## Maven
-### Current Version 2.1.1
+### Current Version 2.2
 ```xml
 <dependency>
     <groupId>com.github.gwtmaterialdesign</groupId>
