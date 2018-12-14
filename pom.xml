@@ -12,11 +12,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.gwtmaterialdesign</groupId>
-    <artifactId>gwt-material-amcharts</artifactId>
+    <artifactId>gwt-material-am4charts</artifactId>
     <version>2.2-SNAPSHOT</version>
     <packaging>gwt-lib</packaging>
 
-    <name>gwt-material-amcharts</name>
+    <name>Gwt Material Am4charts</name>
 
     <repositories>
         <repository>
