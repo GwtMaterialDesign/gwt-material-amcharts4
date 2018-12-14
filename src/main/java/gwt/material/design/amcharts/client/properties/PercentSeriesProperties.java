@@ -28,7 +28,7 @@ import jsinterop.annotations.JsType;
 public class PercentSeriesProperties extends SeriesProperties {
 
     @JsProperty
-    public Number alignLabels;
+    public double alignLabels;
 
     @JsProperty
     public ColorSet colors;

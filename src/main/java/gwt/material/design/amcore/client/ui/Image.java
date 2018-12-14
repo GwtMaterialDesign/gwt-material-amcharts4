@@ -37,7 +37,7 @@ public class Image extends Sprite {
     }
 
     @JsProperty
-    public Number heightRatio;
+    public double heightRatio;
 
     @JsProperty
     public String href;

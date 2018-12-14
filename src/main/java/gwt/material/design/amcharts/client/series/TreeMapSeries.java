@@ -28,7 +28,7 @@ import jsinterop.annotations.JsType;
 public class TreeMapSeries extends ColumnSeries {
 
     @JsProperty
-    public Number level;
+    public int level;
 
     @JsProperty
     public TreeMapDataItem parentDataItem;

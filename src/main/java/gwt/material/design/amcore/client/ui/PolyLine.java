@@ -30,7 +30,7 @@ import jsinterop.annotations.JsType;
 public class PolyLine extends Sprite {
 
     @JsProperty
-    public Number distance;
+    public double distance;
 
     @JsProperty
     public Point[] segments;

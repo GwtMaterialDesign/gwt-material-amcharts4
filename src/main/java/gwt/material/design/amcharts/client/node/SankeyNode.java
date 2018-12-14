@@ -36,7 +36,7 @@ public class SankeyNode extends FlowDiagramNode {
    public SankeyDiagram chart;
 
    @JsProperty
-   public Number level;
+   public int level;
 
    @JsProperty
    public LabelBullet nameLabel;

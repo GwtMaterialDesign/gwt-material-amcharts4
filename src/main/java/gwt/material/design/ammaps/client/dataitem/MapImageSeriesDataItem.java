@@ -34,5 +34,5 @@ public class MapImageSeriesDataItem extends MapSeriesDataItem {
     public MapImage mapImage;
 
     @JsProperty
-    public Number[] point;
+    public double[] point;
 }

@@ -55,13 +55,13 @@ public class AxisDataItem extends DataItem {
     public double position;
 
     @JsProperty
-    public Number value;
+    public double value;
 
     @JsProperty
-    public Number startValue;
+    public double startValue;
 
     @JsProperty
-    public Number endValue;
+    public double endValue;
 
     @JsProperty
     public String text;

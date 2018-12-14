@@ -33,7 +33,7 @@ public class Color {
     public Color(String color) {}
 
     @JsProperty
-    public Number alpha;
+    public double alpha;
 
     @JsProperty
     public Color alternative;

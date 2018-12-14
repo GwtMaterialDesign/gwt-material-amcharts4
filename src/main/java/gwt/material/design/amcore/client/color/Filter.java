@@ -32,7 +32,7 @@ public class Filter extends BaseObject {
     public Group filterElement;
 
     @JsProperty
-    public Number height;
+    public double height;
 
     @JsProperty
     public boolean isTemplate;
@@ -41,7 +41,7 @@ public class Filter extends BaseObject {
     public boolean nonScaling;
 
     @JsProperty
-    public Number width;
+    public double width;
 
     @JsMethod
     public native void copyFrom(Filter filter);

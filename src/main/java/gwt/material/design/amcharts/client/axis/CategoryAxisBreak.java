@@ -35,7 +35,7 @@ public class CategoryAxisBreak extends AxisBreak {
     public double endPosition;
 
     @JsProperty
-    public Number endValue;
+    public double endValue;
 
     @JsProperty
     public String startCategory;
@@ -44,5 +44,5 @@ public class CategoryAxisBreak extends AxisBreak {
     public double startPosition;
 
     @JsProperty
-    public Number startValue;
+    public double startValue;
 }

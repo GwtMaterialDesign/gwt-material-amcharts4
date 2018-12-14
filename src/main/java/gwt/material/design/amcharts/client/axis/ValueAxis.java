@@ -37,7 +37,7 @@ import jsinterop.annotations.JsType;
 public class ValueAxis extends Axis {
 
     @JsProperty
-    public Number baseValue;
+    public double baseValue;
 
     @JsProperty
     public boolean calculateTotals;
@@ -58,16 +58,16 @@ public class ValueAxis extends Axis {
     public double max;
 
     @JsProperty
-    public Number maxPrecision;
+    public double maxPrecision;
 
     @JsProperty
-    public Number maxZoomed;
+    public double maxZoomed;
 
     @JsProperty
     public double min;
 
     @JsProperty
-    public Number minZoomed;
+    public double minZoomed;
 
     @JsProperty
     public List<XYSeries> series;
@@ -94,16 +94,16 @@ public class ValueAxis extends Axis {
     public OrderedListTemplate<ValueAxisDataItem> dataItems;
 
     @JsMethod
-    public native OrientationPoint anyToPoint(Number value);
+    public native OrientationPoint anyToPoint(double value);
 
     @JsMethod
-    public native double anyToPosition(Number value);
+    public native double anyToPosition(double value);
 
     @JsMethod
     public native void copyFrom(ValueAxis source);
 
     @JsMethod
-    public native String formatLabel(Number value);
+    public native String formatLabel(double value);
 
     @JsMethod
     public native String getPositionLabel(double position);
@@ -112,28 +112,28 @@ public class ValueAxis extends Axis {
     public native double pointToPosition(Point point);
 
     @JsMethod
-    public native Number positionToValue(double position);
+    public native double positionToValue(double position);
 
     @JsMethod
-    public native void showTooltipAt(Number value);
+    public native void showTooltipAt(double value);
 
     @JsMethod
-    public native OrientationPoint valueToPoint(Number value);
+    public native OrientationPoint valueToPoint(double value);
 
     @JsMethod
-    public native double valueToPosition(Number value);
+    public native double valueToPosition(double value);
 
     @JsMethod
-    public native Number xToValue(Number x);
+    public native double xToValue(double x);
 
     @JsMethod
-    public native Number yToValue(Number y);
+    public native double yToValue(double y);
 
     @JsMethod
-    public native void zoomToValues(Number start, Number end);
+    public native void zoomToValues(double start, double end);
 
     @JsMethod
-    public native void zoomToValues(Number start, Number end, boolean skipRangeEvent, boolean instantly);
+    public native void zoomToValues(double start, double end, boolean skipRangeEvent, boolean instantly);
 
     @JsMethod
     public native void appendDataItem(ValueAxisDataItem dataItem);

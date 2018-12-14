@@ -29,17 +29,17 @@ import jsinterop.annotations.JsType;
 public class Line extends Sprite {
 
     @JsProperty
-    public Number x1;
+    public double x1;
 
     @JsProperty
-    public Number x2;
+    public double x2;
 
     @JsProperty
-    public Number y1;
+    public double y1;
 
     @JsProperty
-    public Number y2;
+    public double y2;
 
     @JsMethod
-    public native OrientationPoint positionToPoint(Number point);
+    public native OrientationPoint positionToPoint(double point);
 }

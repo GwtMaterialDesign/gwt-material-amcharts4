@@ -34,13 +34,13 @@ public class HeatRule<T> {
     public T max;
 
     @JsProperty
-    public Number maxValue;
+    public double maxValue;
 
     @JsProperty
     public T min;
 
     @JsProperty
-    public Number minValue;
+    public double minValue;
 
     @JsProperty
     public String property;

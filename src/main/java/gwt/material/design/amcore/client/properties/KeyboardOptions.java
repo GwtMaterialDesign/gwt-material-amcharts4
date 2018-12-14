@@ -33,5 +33,5 @@ public class KeyboardOptions {
     public int accellerationDelay;
 
     @JsProperty
-    public Number speed;
+    public double speed;
 }

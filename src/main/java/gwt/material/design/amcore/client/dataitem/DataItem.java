@@ -50,7 +50,7 @@ public class DataItem extends BaseObjectsEvents {
     public Object dates;
 
     @JsProperty
-    public Number depth;
+    public double depth;
 
     @JsProperty
     public boolean hasProperties;
@@ -101,7 +101,7 @@ public class DataItem extends BaseObjectsEvents {
     public Object date;
 
     @JsProperty
-    public Number duration;
+    public int duration;
 
     @JsProperty
     public Object workingValue;
@@ -125,31 +125,31 @@ public class DataItem extends BaseObjectsEvents {
     public native int getDuration(int duration);
 
     @JsMethod
-    public native Number getValue(String name);
+    public native double getValue(String name);
 
     /**
      * @param calculatedValue @see {@link CalculatedValue}
      */
     @JsMethod
-    public native Number getValue(String name, String calculatedValue);
+    public native double getValue(String name, String calculatedValue);
 
     @JsMethod
-    public native Number getWorkingValue(String name);
+    public native double getWorkingValue(String name);
 
     @JsMethod
     public native Animation hide();
 
     @JsMethod
-    public native Animation hide(int duration, int delay, Number toValue, String[] fields);
+    public native Animation hide(int duration, int delay, double toValue, String[] fields);
 
     @JsMethod
-    public native void setCalculatedValue(String name, Number value);
+    public native void setCalculatedValue(String name, double value);
 
     /**
      * @param calculatedValue @see {@link CalculatedValue}
      */
     @JsMethod
-    public native void setCalculatedValue(String name, Number value, String calculatedValue);
+    public native void setCalculatedValue(String name, double value, String calculatedValue);
 
     @JsMethod
     public native void setCategory(String name, String value);
@@ -161,7 +161,7 @@ public class DataItem extends BaseObjectsEvents {
     public native void setDate(String name, JsDate date, int duration);
 
     @JsMethod
-    public native void setLocation(String name, Number value);
+    public native void setLocation(String name, double value);
 
     @JsMethod
     public native void setLocation(String name, double value, int duration, int delay);
@@ -182,13 +182,13 @@ public class DataItem extends BaseObjectsEvents {
     public native void setVisibility(boolean value, boolean noChangeValues);
 
     @JsMethod
-    public native void setWorkingLocation(String name, Number value);
+    public native void setWorkingLocation(String name, double value);
 
     @JsMethod
     public native void setWorkingLocation(String name, double value, int duration, int delay);
 
     @JsMethod
-    public native void setWorkingValue(String name, Number value);
+    public native void setWorkingValue(String name, double value);
 
     @JsMethod
     public native void setWorkingValue(String name, double value, int duration, int delay);

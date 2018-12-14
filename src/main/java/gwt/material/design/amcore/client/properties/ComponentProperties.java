@@ -27,5 +27,5 @@ import jsinterop.annotations.JsType;
 public class ComponentProperties extends ContainerProperties {
 
     @JsProperty
-    public Number maxZoomFactor;
+    public double maxZoomFactor;
 }

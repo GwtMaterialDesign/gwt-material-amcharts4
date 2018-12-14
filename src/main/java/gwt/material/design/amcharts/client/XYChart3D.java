@@ -31,13 +31,13 @@ public class XYChart3D extends XYChart {
     public double angle;
 
     @JsProperty
-    public Number depth;
+    public double depth;
 
     @JsProperty
-    public Number dx3D;
+    public double dx3D;
 
     @JsProperty
-    public Number dy3D;
+    public double dy3D;
 
     @JsProperty
     public XYChart3DDataFields dataFields;

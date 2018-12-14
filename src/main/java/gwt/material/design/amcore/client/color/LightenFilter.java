@@ -26,5 +26,5 @@ import jsinterop.annotations.JsType;
 public class LightenFilter extends Filter {
 
     @JsProperty
-    public Number lightness;
+    public double lightness;
 }

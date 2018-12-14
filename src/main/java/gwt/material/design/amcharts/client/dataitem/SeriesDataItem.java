@@ -27,5 +27,5 @@ import jsinterop.annotations.JsType;
 public class SeriesDataItem extends DataItem {
 
     @JsProperty
-    public Number value;
+    public double value;
 }

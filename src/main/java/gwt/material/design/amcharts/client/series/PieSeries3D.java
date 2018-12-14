@@ -30,7 +30,7 @@ public class PieSeries3D extends PieSeries {
     public double angle;
 
     @JsProperty
-    public Number depth;
+    public double depth;
 
     @JsProperty
     public PieSeries3DDataFields dataFields;

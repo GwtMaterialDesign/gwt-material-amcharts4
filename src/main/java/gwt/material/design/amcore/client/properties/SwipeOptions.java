@@ -27,11 +27,11 @@ import jsinterop.annotations.JsType;
 public class SwipeOptions {
 
     @JsProperty
-    public Number horizontalThreshold;
+    public double horizontalThreshold;
 
     @JsProperty
-    public Number time;
+    public double time;
 
     @JsProperty
-    public Number verticalThreshold;
+    public double verticalThreshold;
 }

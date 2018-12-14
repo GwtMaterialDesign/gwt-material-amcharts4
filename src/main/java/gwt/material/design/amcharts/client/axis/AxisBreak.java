@@ -38,16 +38,16 @@ import jsinterop.annotations.JsType;
 public class AxisBreak extends Container {
 
     @JsProperty
-    public Number adjustedEndValue;
+    public double adjustedEndValue;
 
     @JsProperty
-    public Number adjustedStartValue;
+    public double adjustedStartValue;
 
     @JsProperty
     public Axis axis;
 
     @JsProperty
-    public Number breakSize;
+    public double breakSize;
 
     @JsProperty
     public WavedShape endLine;
@@ -59,7 +59,7 @@ public class AxisBreak extends Container {
     public double endPosition;
 
     @JsProperty
-    public Number endValue;
+    public double endValue;
 
     @JsProperty
     public WavedShape fillShape;
@@ -74,7 +74,7 @@ public class AxisBreak extends Container {
     public double startPosition;
 
     @JsProperty
-    public Number startValue;
+    public double startValue;
 
     @JsProperty
     public AxisDataItem dataItem;

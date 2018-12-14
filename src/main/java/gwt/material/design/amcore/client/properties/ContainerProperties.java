@@ -36,7 +36,7 @@ public class ContainerProperties extends SpriteProperties{
     public String fontFamily;
 
     @JsProperty
-    public Number fontSize;
+    public double fontSize;
 
     /**
      * @see gwt.material.design.amcore.client.constants.FontWeight

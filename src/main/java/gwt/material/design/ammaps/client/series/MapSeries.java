@@ -31,7 +31,7 @@ import jsinterop.annotations.JsType;
 public class MapSeries extends Series {
 
     @JsProperty
-    public Number east;
+    public double east;
 
     @JsProperty
     public String[] exclude;
@@ -46,16 +46,16 @@ public class MapSeries extends Series {
     public String[] include;
 
     @JsProperty
-    public Number north;
+    public double north;
 
     @JsProperty
-    public Number south;
+    public double south;
 
     @JsProperty
     public boolean useGeodata;
 
     @JsProperty
-    public Number west;
+    public double west;
 
     @JsProperty
     public MapSeriesDataFields dataFields;

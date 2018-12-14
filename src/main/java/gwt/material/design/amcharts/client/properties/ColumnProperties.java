@@ -35,13 +35,13 @@ public class ColumnProperties extends ContainerProperties {
     public Object max;
 
     @JsProperty
-    public Number maxValue;
+    public double maxValue;
 
     @JsProperty
     public Object min;
 
     @JsProperty
-    public Number minValue;
+    public double minValue;
 
     @JsProperty
     public String property;

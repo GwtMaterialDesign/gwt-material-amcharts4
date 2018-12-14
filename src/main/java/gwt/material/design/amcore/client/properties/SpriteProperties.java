@@ -42,10 +42,10 @@ public class SpriteProperties {
     public boolean draggable;
 
     @JsProperty
-    public Number dx;
+    public double dx;
 
     @JsProperty
-    public Number dy;
+    public double dy;
 
     @JsProperty
     public Object fill;
@@ -54,7 +54,7 @@ public class SpriteProperties {
     public Object fillModifier;
 
     @JsProperty
-    public Number fillOpacity;
+    public double fillOpacity;
 
     @JsProperty
     public boolean focusable;
@@ -87,19 +87,19 @@ public class SpriteProperties {
     public boolean longClickable;
 
     @JsProperty
-    public Number marginBottom;
+    public double marginBottom;
 
     @JsProperty
-    public Number marginLeft;
+    public double marginLeft;
 
     @JsProperty
-    public Number marginRight;
+    public double marginRight;
 
     @JsProperty
-    public Number marginTop;
+    public double marginTop;
 
     @JsProperty
-    public Number maxHeight;
+    public double maxHeight;
 
     @JsProperty
     public Number maxWidth;

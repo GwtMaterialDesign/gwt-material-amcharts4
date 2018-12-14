@@ -59,10 +59,10 @@ public class DurationAxis extends ValueAxis {
     public native void copyFrom(DurationAxis source);
 
     @JsMethod
-    public native String formatLabel(Number value);
+    public native String formatLabel(double value);
 
     @JsMethod
-    public native String formatLabel(Number value, String format);
+    public native String formatLabel(double value, String format);
 
     @JsMethod
     public native void appendDataItem(DurationAxisDataItem dataItem);

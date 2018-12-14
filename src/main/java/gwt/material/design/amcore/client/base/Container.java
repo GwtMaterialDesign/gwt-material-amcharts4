@@ -46,7 +46,7 @@ public class Container extends Sprite {
     public String contentAlign;
 
     @JsProperty
-    public Number contentHeight;
+    public double contentHeight;
 
     /**
      * @see VerticalAlign
@@ -55,7 +55,7 @@ public class Container extends Sprite {
     public String contentValign;
 
     @JsProperty
-    public Number contentWidth;
+    public double contentWidth;
 
     @JsProperty
     public boolean fixedWidthGrid;
@@ -82,13 +82,13 @@ public class Container extends Sprite {
     public boolean layoutInvalid;
 
     @JsProperty
-    public Number maxColumns;
+    public double maxColumns;
 
     @JsProperty
-    public Number minHeight;
+    public double minHeight;
 
     @JsProperty
-    public Number minWidth;
+    public double minWidth;
 
     @JsProperty
     public Preloader preloader;

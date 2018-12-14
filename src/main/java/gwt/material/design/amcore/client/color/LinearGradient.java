@@ -33,7 +33,7 @@ public class LinearGradient extends BaseObject {
     public Group element;
 
     @JsProperty
-    public Number rotation;
+    public double rotation;
 
     @JsProperty
     public GradientStop stops;
@@ -42,7 +42,7 @@ public class LinearGradient extends BaseObject {
     public native void addColor(Color color);
 
     @JsMethod
-    public native void addColor(Color color, double opacity, Number offset);
+    public native void addColor(Color color, double opacity, double offset);
 
     @JsMethod
     public native void copyFrom(LinearGradient source);

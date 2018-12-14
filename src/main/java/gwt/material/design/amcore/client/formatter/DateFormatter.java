@@ -37,7 +37,7 @@ public class DateFormatter extends BaseObject {
     public String dateFormat;
 
     @JsProperty
-    public Number firstDayOfWeek;
+    public int firstDayOfWeek;
 
     @JsProperty
     public String inputDateFormat;

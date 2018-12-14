@@ -72,7 +72,7 @@ public class AxisRendererCircular extends AxisRenderer {
     public native AxisLabelCircular createLabel();
 
     @JsMethod
-    public native Number positionToAngle(double position);
+    public native double positionToAngle(double position);
 
     @JsMethod
     public native Point positionToPoint(double position);

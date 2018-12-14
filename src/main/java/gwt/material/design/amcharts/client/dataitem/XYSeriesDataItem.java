@@ -51,14 +51,14 @@ public class XYSeriesDataItem extends SeriesDataItem {
     public JsDate openDateY;
 
     @JsProperty
-    public Number openValueX;
+    public double openValueX;
 
     @JsProperty
-    public Number openValueY;
+    public double openValueY;
 
     @JsProperty
-    public Number valueX;
+    public double valueX;
 
     @JsProperty
-    public Number valueY;
+    public double valueY;
 }

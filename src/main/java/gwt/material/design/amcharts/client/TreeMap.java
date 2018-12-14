@@ -41,7 +41,7 @@ public class TreeMap extends XYChart {
     public ColorSet colors;
 
     @JsProperty
-    public Number currentLevel;
+    public int currentLevel;
 
     @JsProperty
     public TreeMapDataFields currentlyZoomed;
@@ -53,7 +53,7 @@ public class TreeMap extends XYChart {
     public Object layoutAlgorithm;
 
     @JsProperty
-    public Number maxLevels;
+    public int maxLevels;
 
     @JsProperty
     public NavigationBar navigationBar;

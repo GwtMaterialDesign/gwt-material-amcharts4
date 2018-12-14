@@ -31,7 +31,7 @@ public class MapLineSeriesDataItem extends MapSeriesDataItem {
     public GeoPoint geoPoint;
 
     @JsProperty
-    public Number line;
+    public double line;
 
     @JsProperty
     public MapLine mapLine;
@@ -40,5 +40,5 @@ public class MapLineSeriesDataItem extends MapSeriesDataItem {
     public GeoPoint[] multiGeoLine;
 
     @JsProperty
-    public Number[] multiLine;
+    public double[] multiLine;
 }

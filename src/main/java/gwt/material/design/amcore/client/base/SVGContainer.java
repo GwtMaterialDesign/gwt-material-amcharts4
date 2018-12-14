@@ -38,7 +38,7 @@ public class SVGContainer extends Sprite {
     public Container container;
 
     @JsProperty
-    public Number height;
+    public double height;
 
     @JsProperty
     public boolean hideOverflow;
@@ -53,7 +53,7 @@ public class SVGContainer extends Sprite {
     public ListTemplate<Popup> popups;
 
     @JsProperty
-    public Number width;
+    public double width;
 
     @JsMethod
     public native void closeAllPopups();

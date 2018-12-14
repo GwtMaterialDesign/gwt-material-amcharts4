@@ -33,19 +33,19 @@ public class ColorSet {
     public Color[] list;
 
     @JsProperty
-    public Number maxLightness;
+    public double maxLightness;
 
     @JsProperty
-    public Number minColors;
+    public double minColors;
 
     @JsProperty
-    public Number minLightness;
+    public double minLightness;
 
     @JsProperty
     public boolean reuse;
 
     @JsProperty
-    public Number saturation;
+    public double saturation;
 
     @JsProperty
     public boolean shuffle;

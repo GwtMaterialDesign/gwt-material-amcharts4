@@ -52,7 +52,7 @@ public class Component extends Container {
     public Object interpolationEasing;
 
     @JsProperty
-    public Number maxZoomFactor;
+    public double maxZoomFactor;
 
     @JsProperty
     public int parsingStepDuration;
@@ -76,7 +76,7 @@ public class Component extends Container {
     public boolean skipRangeEvent;
 
     @JsProperty
-    public Number zoomFactor;
+    public double zoomFactor;
 
     @JsMethod
     public native void addData(Object[] rawDataItem, int removeCount);

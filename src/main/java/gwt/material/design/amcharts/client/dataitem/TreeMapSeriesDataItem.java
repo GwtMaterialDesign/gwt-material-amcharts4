@@ -32,5 +32,5 @@ public class TreeMapSeriesDataItem extends ColumnSeriesDataItem {
     public TreeMapDataItem treeMapDataItem;
 
     @JsProperty
-    public Number value;
+    public double value;
 }

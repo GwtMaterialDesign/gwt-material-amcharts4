@@ -74,7 +74,7 @@ public class AxisRenderer extends Container {
     public double maxLabelPosition;
 
     @JsProperty
-    public Number minGridDistance;
+    public double minGridDistance;
 
     @JsProperty
     public double minLabelPosition;
@@ -86,13 +86,13 @@ public class AxisRenderer extends Container {
     public ListTemplate<AxisTick> ticks;
 
     @JsProperty
-    public Number tooltipLocation;
+    public double tooltipLocation;
 
     @JsProperty
     public Sprite baseGrid;
 
     @JsMethod
-    public native double coordinateToPosition(Number coordinate);
+    public native double coordinateToPosition(double coordinate);
 
     @JsMethod
     public native void copyFrom(AxisRenderer source);

@@ -49,7 +49,7 @@ public class XYCursor extends Cursor {
     public Sprite lineY;
 
     @JsProperty
-    public Number maxPanOut;
+    public double maxPanOut;
 
     @JsProperty
     public Sprite selection;

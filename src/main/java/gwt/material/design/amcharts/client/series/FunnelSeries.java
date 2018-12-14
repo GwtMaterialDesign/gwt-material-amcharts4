@@ -31,7 +31,7 @@ import jsinterop.annotations.JsType;
 public class FunnelSeries extends PercentSeries {
 
     @JsProperty
-    public Number bottomRatio;
+    public double bottomRatio;
 
     /**
      * @see Orientation

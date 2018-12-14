@@ -42,7 +42,7 @@ public class SankeyDiagram extends FlowDiagram {
     public String orientation;
 
     @JsProperty
-    public Number valueHeight;
+    public double valueHeight;
 
     @JsProperty
     public SankeyDiagramDataFields dataFields;

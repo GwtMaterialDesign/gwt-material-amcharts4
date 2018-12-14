@@ -46,7 +46,7 @@ public class CSVOptions extends DataParserOptions {
     public boolean skipEmpty;
 
     @JsProperty
-    public Number skipRows;
+    public int skipRows;
 
     @JsProperty
     public boolean useColumnNames;

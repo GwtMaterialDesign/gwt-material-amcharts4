@@ -37,8 +37,8 @@ public class MapPolygonSeriesDataItem extends MapSeriesDataItem {
     public GeoPoint[] multiGeoPolygon;
 
     @JsProperty
-    public Number[] multiPolygon;
+    public double[] multiPolygon;
 
     @JsProperty
-    public Number[] polygon;
+    public double[] polygon;
 }

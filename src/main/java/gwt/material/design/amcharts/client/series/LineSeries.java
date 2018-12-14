@@ -32,7 +32,7 @@ public class LineSeries extends XYSeries {
     public boolean connect;
 
     @JsProperty
-    public Number minDistance;
+    public double minDistance;
 
     @JsProperty
     public ListTemplate<LineSeriesSegment> segments;

@@ -33,7 +33,7 @@ public class Circle extends Sprite {
     public Adapter<Circle, CircleAdapter> adapter;
 
     @JsProperty
-    public Number pixelRadius;
+    public double pixelRadius;
 
     /**
      * Accepts {@link Number} or {@link Percent}

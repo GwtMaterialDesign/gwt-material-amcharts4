@@ -29,7 +29,7 @@ import jsinterop.annotations.JsType;
 public class Pointer {
 
     @JsProperty
-    public Number button;
+    public int button;
 
     @JsProperty
     public Object[] dragStartEvents;
@@ -38,7 +38,7 @@ public class Pointer {
     public InteractionObject dragTarget;
 
     @JsProperty
-    public Number hitTimeout;
+    public double hitTimeout;
 
     @JsProperty
     public String id;
@@ -59,13 +59,13 @@ public class Pointer {
     public Point startPoint;
 
     @JsProperty
-    public Number startTime;
+    public double startTime;
 
     @JsProperty
     public boolean swipeCanceled;
 
     @JsProperty
-    public Number swipeTimeout;
+    public double swipeTimeout;
 
     @JsProperty
     public boolean touch;

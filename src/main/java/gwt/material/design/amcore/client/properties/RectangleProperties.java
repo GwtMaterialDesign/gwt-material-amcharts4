@@ -27,14 +27,14 @@ import jsinterop.annotations.JsType;
 public class RectangleProperties {
 
     @JsProperty
-    public Number x;
+    public double x;
 
     @JsProperty
-    public Number y;
+    public double y;
 
     @JsProperty
-    public Number width;
+    public double width;
 
     @JsProperty
-    public Number height;
+    public double height;
 }

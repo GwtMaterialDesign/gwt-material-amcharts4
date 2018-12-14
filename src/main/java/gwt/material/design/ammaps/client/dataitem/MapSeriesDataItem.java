@@ -27,17 +27,17 @@ import jsinterop.annotations.JsType;
 public class MapSeriesDataItem extends SeriesDataItem {
 
     @JsProperty
-    public Number east;
+    public double east;
 
     @JsProperty
-    public Number north;
+    public double north;
 
     @JsProperty
-    public Number south;
+    public double south;
 
     @JsProperty
-    public Number value;
+    public double value;
 
     @JsProperty
-    public Number west;
+    public double west;
 }

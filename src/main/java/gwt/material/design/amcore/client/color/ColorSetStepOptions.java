@@ -26,17 +26,17 @@ import jsinterop.annotations.JsType;
 public class ColorSetStepOptions {
 
     @JsProperty
-    public Number brighten;
+    public double brighten;
 
     @JsProperty
-    public Number hue;
+    public double hue;
 
     @JsProperty
-    public Number lighten;
+    public double lighten;
 
     @JsProperty
-    public Number lightness;
+    public double lightness;
 
     @JsProperty
-    public Number saturation;
+    public double saturation;
 }

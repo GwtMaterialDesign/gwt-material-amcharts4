@@ -73,7 +73,7 @@ public class Series extends Component {
     public LegendSettings legendSettings;
 
     @JsProperty
-    public Number minBulletDistance;
+    public double minBulletDistance;
 
     @JsProperty
     public String name;

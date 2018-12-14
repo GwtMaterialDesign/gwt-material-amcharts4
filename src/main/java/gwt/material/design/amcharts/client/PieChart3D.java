@@ -33,7 +33,7 @@ public class PieChart3D extends PieChart {
     public double angle;
 
     @JsProperty
-    public Number depth;
+    public double depth;
 
     @JsProperty
     public PieChart3DDataFields dataFields;

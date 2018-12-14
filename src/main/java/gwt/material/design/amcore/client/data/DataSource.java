@@ -64,7 +64,7 @@ public class    DataSource extends BaseObjectsEvents {
     public DataParser parser;
 
     @JsProperty
-    public Number reloadFrequency;
+    public double reloadFrequency;
 
     @JsProperty
     public NetRequestOptions requestOptions;

@@ -29,5 +29,5 @@ public class ColorizeFilter extends Filter {
     public Color color;
 
     @JsProperty
-    public Number intensity;
+    public double intensity;
 }

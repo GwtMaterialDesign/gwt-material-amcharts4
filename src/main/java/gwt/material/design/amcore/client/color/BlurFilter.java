@@ -26,5 +26,5 @@ import jsinterop.annotations.JsType;
 public class BlurFilter extends Filter {
 
     @JsProperty
-    public Number blur;
+    public double blur;
 }

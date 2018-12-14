@@ -49,44 +49,44 @@ public class DurationFormatter extends BaseObject {
    public Sprite sprite;
 
    @JsMethod
-   public native String format(Number value);
+   public native String format(double value);
 
     /**
      * @param baseUnit See {@link TimeUnit}
      */
     @JsMethod
-    public native String format(Number value, String format, Object baseUnit);
+    public native String format(double value, String format, Object baseUnit);
 
     @JsMethod
-    public native String getFormat(Number value);
-
-    /**
-     * @param baseUnit See {@link TimeUnit}
-     */
-    @JsMethod
-    public native String getFormat(Number value, Number maxValue, Object baseUnit);
-
-    @JsMethod
-    public native Number getMilliseconds(Number value);
+    public native String getFormat(double value);
 
     /**
      * @param baseUnit See {@link TimeUnit}
      */
     @JsMethod
-    public native Number getMilliseconds(Number value, Object baseUnit);
+    public native String getFormat(double value, double maxValue, Object baseUnit);
 
     @JsMethod
-    public native String getValueUnit(Number value);
-
-    /**
-     * @param baseUnit See {@link TimeUnit}
-     */
-    @JsMethod
-    public native Object getValueUnit(Number value, Object baseUnit);
+    public native int getMilliseconds(double value);
 
     /**
      * @param baseUnit See {@link TimeUnit}
      */
     @JsMethod
-    public native Object toTimeStamp(Number value, Object baseUnit);
+    public native int getMilliseconds(double value, Object baseUnit);
+
+    @JsMethod
+    public native String getValueUnit(double value);
+
+    /**
+     * @param baseUnit See {@link TimeUnit}
+     */
+    @JsMethod
+    public native Object getValueUnit(double value, Object baseUnit);
+
+    /**
+     * @param baseUnit See {@link TimeUnit}
+     */
+    @JsMethod
+    public native Object toTimeStamp(double value, Object baseUnit);
 }

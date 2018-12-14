@@ -31,7 +31,7 @@ public class GradientStop {
     public Color color;
 
     @JsProperty
-    public Number offset;
+    public double offset;
 
     @JsProperty
     public double opacity;

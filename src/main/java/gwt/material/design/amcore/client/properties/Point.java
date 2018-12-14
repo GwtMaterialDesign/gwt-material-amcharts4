@@ -27,8 +27,8 @@ import jsinterop.annotations.JsType;
 public class Point {
 
     @JsProperty
-    public Number x;
+    public double x;
 
     @JsProperty
-    public Number y;
+    public double y;
 }

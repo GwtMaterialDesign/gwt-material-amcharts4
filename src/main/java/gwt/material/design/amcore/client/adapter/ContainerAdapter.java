@@ -35,7 +35,7 @@ public class ContainerAdapter extends SpriteAdapter {
     public String fontFamily;
 
     @JsProperty
-    public Number fontSize;
+    public double fontSize;
 
     /**
      * @see gwt.material.design.amcore.client.constants.FontWeight

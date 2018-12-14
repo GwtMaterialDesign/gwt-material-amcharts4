@@ -45,13 +45,13 @@ public class HeatLegend extends Container {
     public Color maxColor;
 
     @JsProperty
-    public Number maxValue;
+    public double maxValue;
 
     @JsProperty
     public Color minColor;
 
     @JsProperty
-    public Number minValue;
+    public double minValue;
 
     /**
      * @see Orientation

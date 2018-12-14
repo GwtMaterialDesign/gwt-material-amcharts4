@@ -32,5 +32,5 @@ public class FocusFilter extends Filter {
     public Color stroke;
 
     @JsProperty
-    public Number strokeWidth;
+    public double strokeWidth;
 }

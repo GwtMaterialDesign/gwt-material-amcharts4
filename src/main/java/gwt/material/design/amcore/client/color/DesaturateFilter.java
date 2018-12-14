@@ -26,5 +26,5 @@ import jsinterop.annotations.JsType;
 public class DesaturateFilter extends Filter {
 
     @JsProperty
-    public Number saturation;
+    public double saturation;
 }

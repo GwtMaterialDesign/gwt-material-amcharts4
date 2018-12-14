@@ -26,20 +26,20 @@ import jsinterop.annotations.JsType;
 public class CandlestickSeriesDataItem extends ColumnSeriesDataItem {
 
     @JsProperty
-    public Number closeValueX;
+    public double closeValueX;
 
     @JsProperty
-    public Number closeValueY;
+    public double closeValueY;
 
     @JsProperty
-    public Number highValueX;
+    public double highValueX;
 
     @JsProperty
-    public Number highValueY;
+    public double highValueY;
 
     @JsProperty
-    public Number lowValueX;
+    public double lowValueX;
 
     @JsProperty
-    public Number lowValueY;
+    public double lowValueY;
 }

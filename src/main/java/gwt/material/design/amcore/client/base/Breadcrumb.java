@@ -31,5 +31,5 @@ public class Breadcrumb {
     public Point point;
 
     @JsProperty
-    public Number timestamp;
+    public double timestamp;
 }

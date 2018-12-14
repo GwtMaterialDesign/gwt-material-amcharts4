@@ -34,7 +34,7 @@ public class Label extends Container {
     public Adapter<Label, LabelAdapter> adapter;
 
     @JsProperty
-    public Number availableHeight;
+    public double availableHeight;
 
     @JsProperty
     public String currentText;

@@ -102,10 +102,10 @@ public class Axis extends Sprite {
     public DictionaryTemplate<String, SpriteState<Axis>> states;
 
     @JsMethod
-    public native OrientationPoint anyToPoint(Number value);
+    public native OrientationPoint anyToPoint(double value);
 
     @JsMethod
-    public native double anyToPosition(Number value);
+    public native double anyToPosition(double value);
 
     @JsMethod
     public native void appendDataItem(AxisDataItem dataItem);

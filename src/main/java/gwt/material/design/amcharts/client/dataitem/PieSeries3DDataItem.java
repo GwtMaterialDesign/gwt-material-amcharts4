@@ -30,5 +30,5 @@ public class PieSeries3DDataItem extends PieSeriesDataItem {
     public PieSeries3D component;
 
     @JsProperty
-    public Number depthValue;
+    public double depthValue;
 }

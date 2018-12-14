@@ -26,16 +26,16 @@ import jsinterop.annotations.JsType;
 public class DropShadowFilter extends Filter {
 
     @JsProperty
-    public Number blur;
+    public double blur;
 
     @JsProperty
     public Color color;
 
     @JsProperty
-    public Number dx;
+    public double dx;
 
     @JsProperty
-    public Number dy;
+    public double dy;
 
     @JsProperty
     public double opacity;

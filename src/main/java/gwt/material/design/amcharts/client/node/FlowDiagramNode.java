@@ -34,7 +34,7 @@ import jsinterop.annotations.JsType;
 public class FlowDiagramNode extends Container {
 
     @JsProperty
-    public Number adjustedTotal;
+    public int adjustedTotal;
 
     @JsProperty
     public FlowDiagram chart;
@@ -58,11 +58,11 @@ public class FlowDiagramNode extends Container {
     public List<FlowDiagramDataItem> outgoingDataItems;
 
     @JsProperty
-    public Number total;
+    public int total;
 
     @JsProperty
-    public Number totalIncoming;
+    public int totalIncoming;
 
     @JsProperty
-    public Number totalOutgoing;
+    public int totalOutgoing;
 }

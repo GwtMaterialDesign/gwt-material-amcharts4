@@ -35,13 +35,13 @@ public class TreeMapDataItem extends XYChartDataItem {
     public Color color;
 
     @JsProperty
-    public Number level;
+    public int level;
 
     @JsProperty
     public String name;
 
     @JsProperty
-    public Number percent;
+    public double percent;
 
     @JsProperty
     public TreeMapSeries series;
@@ -50,5 +50,5 @@ public class TreeMapDataItem extends XYChartDataItem {
     public TreeMapSeriesDataItem seriesDataItem;
 
     @JsProperty
-    public Number value;
+    public double value;
 }

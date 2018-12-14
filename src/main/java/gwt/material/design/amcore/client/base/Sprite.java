@@ -108,10 +108,10 @@ public class Sprite extends BaseObjectsEvents {
     public DurationFormatter durationFormatter;
 
     @JsProperty
-    public Number dx;
+    public double dx;
 
     @JsProperty
-    public Number dy;
+    public double dy;
 
     @JsProperty
     public AMElement element;
@@ -120,7 +120,7 @@ public class Sprite extends BaseObjectsEvents {
     public SpriteEventDispatcher events;
 
     @JsProperty
-    public Number ex;
+    public double ex;
 
     @JsProperty
     public boolean exportable;
@@ -129,7 +129,7 @@ public class Sprite extends BaseObjectsEvents {
     public Export exporting;
 
     @JsProperty
-    public Number ey;
+    public double ey;
 
     @JsProperty
     public Object fill;
@@ -555,19 +555,19 @@ public class Sprite extends BaseObjectsEvents {
     public native Object[] getCurrentThemes();
 
     @JsMethod
-    public native Number getPixelX(Number value);
+    public native double getPixelX(double value);
 
     @JsMethod
-    public native Number getPixelY(Number value);
+    public native double getPixelY(double value);
 
     @JsMethod
     public native Object getPropertyValue(String propertyName);
 
     @JsMethod
-    public native Number getRelativeX(Number value);
+    public native double getRelativeX(double value);
 
     @JsMethod
-    public native Number getRelativeY(Number value);
+    public native double getRelativeY(double value);
 
     @JsMethod
     public native Point getSvgPoint(Point point);
@@ -606,13 +606,13 @@ public class Sprite extends BaseObjectsEvents {
     public native boolean isReady();
 
     @JsMethod
-    public native Sprite margin(Number top, Number right, Number bottom, Number left);
+    public native Sprite margin(double top, double right, double bottom, double left);
 
     @JsMethod
     public native void moveTo(Point point);
 
     @JsMethod
-    public native void moveTo(Point point, Number rotation, Number scale, boolean isDragged);
+    public native void moveTo(Point point, double rotation, double scale, boolean isDragged);
 
     @JsMethod
     public native Modal openModal(String text);

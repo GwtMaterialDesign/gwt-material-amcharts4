@@ -34,8 +34,8 @@ public class InertiaOptions {
     public Functions.FuncRet1<Number> easing;
 
     @JsProperty
-    public Number factor;
+    public double factor;
 
     @JsProperty
-    public Number time;
+    public double time;
 }

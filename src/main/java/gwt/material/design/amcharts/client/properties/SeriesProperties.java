@@ -34,5 +34,5 @@ public class SeriesProperties extends ComponentProperties {
     public boolean hiddenInLegend;
 
     @JsProperty
-    public Number minBulletDistance;
+    public double minBulletDistance;
 }

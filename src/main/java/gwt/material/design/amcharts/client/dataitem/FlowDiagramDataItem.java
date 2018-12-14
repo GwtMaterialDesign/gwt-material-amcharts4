@@ -47,5 +47,5 @@ public class FlowDiagramDataItem extends ChartDataItem {
     public FlowDiagramNode toNode;
 
     @JsProperty
-    public Number value;
+    public double value;
 }

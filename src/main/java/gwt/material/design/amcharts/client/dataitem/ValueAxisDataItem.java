@@ -26,8 +26,8 @@ import jsinterop.annotations.JsType;
 public class ValueAxisDataItem extends AxisDataItem {
 
     @JsProperty
-    public Number endValue;
+    public double endValue;
 
     @JsProperty
-    public Number value;
+    public double value;
 }
