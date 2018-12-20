@@ -21,7 +21,7 @@ package gwt.material.design.ammaps.client.geodata;
 
 import com.google.gwt.core.client.JavaScriptObject;
 import com.google.gwt.resources.client.TextResource;
-import gwt.material.design.client.MaterialDesign;
+import gwt.material.design.amcore.client.GwtMaterialAmCore;
 
 import static gwt.material.design.jquery.client.api.JQuery.window;
 
@@ -34,7 +34,7 @@ public abstract class Geodata {
 
     protected void injectJs() {
         if (!GeoDataRegistry.contains(getName())) {
-            MaterialDesign.injectJs(getJsResource());
+            GwtMaterialAmCore.injectJs(getJsResource());
         }
 
         GeoDataRegistry.register(getName(), getJsResource());

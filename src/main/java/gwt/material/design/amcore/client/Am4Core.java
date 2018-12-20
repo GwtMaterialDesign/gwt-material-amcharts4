@@ -28,7 +28,6 @@ import gwt.material.design.amcore.client.language.Locale;
 import gwt.material.design.amcore.client.properties.Ease;
 import gwt.material.design.amcore.client.theme.ChartTheme;
 import gwt.material.design.amcore.client.ui.*;
-import gwt.material.design.client.MaterialDesign;
 import jsinterop.annotations.*;
 
 @JsType(isNative = true, name = "am4core", namespace = JsPackage.GLOBAL)
@@ -101,6 +100,6 @@ public class Am4Core {
 
     @JsOverlay
     public final static void addLanguage(Locale locale) {
-        MaterialDesign.injectJs(locale.getResource());
+        GwtMaterialAmCore.injectJs(locale.getResource());
     }
 }

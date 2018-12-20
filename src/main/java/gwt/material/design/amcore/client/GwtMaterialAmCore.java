@@ -20,14 +20,30 @@
 package gwt.material.design.amcore.client;
 
 import com.google.gwt.core.client.EntryPoint;
+import com.google.gwt.core.client.ScriptInjector;
+import com.google.gwt.resources.client.TextResource;
 import gwt.material.design.amcore.client.resources.CoreClientBundle;
-import gwt.material.design.client.MaterialDesignBase;
 
 public class GwtMaterialAmCore implements EntryPoint {
 
     @Override
     public void onModuleLoad() {
         // Inject Am4chart resources
-        MaterialDesignBase.injectJs(CoreClientBundle.INSTANCE.coreJs());
+        injectJs(CoreClientBundle.INSTANCE.coreJs());
+    }
+
+    public static void injectJs(TextResource resource) {
+        directInjectJs(resource, true, false);
+    }
+
+    protected static void directInjectJs(TextResource resource, boolean removeTag, boolean sourceUrl) {
+        String text = resource.getText() + (sourceUrl ?
+                "//# sourceURL=" + resource.getName() + ".js" : "");
+
+        // Inject the script resource
+        ScriptInjector.fromString(text)
+                .setWindow(ScriptInjector.TOP_WINDOW)
+                .setRemoveTag(removeTag)
+                .inject();
     }
 }

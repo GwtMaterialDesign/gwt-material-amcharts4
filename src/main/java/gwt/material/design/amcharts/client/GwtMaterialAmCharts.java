@@ -21,13 +21,13 @@ package gwt.material.design.amcharts.client;
 
 import com.google.gwt.core.client.EntryPoint;
 import gwt.material.design.amcharts.client.resources.ChartClientBundle;
-import gwt.material.design.client.MaterialDesignBase;
+import gwt.material.design.amcore.client.GwtMaterialAmCore;
 
 public class GwtMaterialAmCharts implements EntryPoint {
 
     @Override
     public void onModuleLoad() {
         // Inject Am4chart resources
-        MaterialDesignBase.injectJs(ChartClientBundle.INSTANCE.chartsJs());
+        GwtMaterialAmCore.injectJs(ChartClientBundle.INSTANCE.chartsJs());
     }
 }

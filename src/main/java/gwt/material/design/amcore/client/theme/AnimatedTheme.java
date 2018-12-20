@@ -19,9 +19,8 @@
  */
 package gwt.material.design.amcore.client.theme;
 
-import gwt.material.design.amcore.client.resources.CoreClientBundle;
+import gwt.material.design.amcore.client.GwtMaterialAmCore;
 import gwt.material.design.amcore.client.resources.ThemeClientBundle;
-import gwt.material.design.client.MaterialDesignBase;
 
 import static gwt.material.design.jquery.client.api.JQuery.window;
 
@@ -29,7 +28,7 @@ public class AnimatedTheme implements ChartTheme {
 
     @Override
     public void loadResource() {
-        MaterialDesignBase.injectJs(ThemeClientBundle.INSTANCE.animatedJs());
+        GwtMaterialAmCore.injectJs(ThemeClientBundle.INSTANCE.animatedJs());
     }
 
     public Object get() {

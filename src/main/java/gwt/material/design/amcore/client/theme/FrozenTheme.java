@@ -19,8 +19,8 @@
  */
 package gwt.material.design.amcore.client.theme;
 
+import gwt.material.design.amcore.client.GwtMaterialAmCore;
 import gwt.material.design.amcore.client.resources.ThemeClientBundle;
-import gwt.material.design.client.MaterialDesignBase;
 
 import static gwt.material.design.jquery.client.api.JQuery.window;
 
@@ -28,7 +28,7 @@ public class FrozenTheme implements ChartTheme {
 
     @Override
     public void loadResource() {
-        MaterialDesignBase.injectJs(ThemeClientBundle.INSTANCE.frozenJs());
+        GwtMaterialAmCore.injectJs(ThemeClientBundle.INSTANCE.frozenJs());
     }
 
     @Override

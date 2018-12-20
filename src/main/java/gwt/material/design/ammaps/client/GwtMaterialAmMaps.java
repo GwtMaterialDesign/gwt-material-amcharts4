@@ -20,14 +20,14 @@
 package gwt.material.design.ammaps.client;
 
 import com.google.gwt.core.client.EntryPoint;
+import gwt.material.design.amcore.client.GwtMaterialAmCore;
 import gwt.material.design.ammaps.client.resources.MapClientBundle;
-import gwt.material.design.client.MaterialDesignBase;
 
 public class GwtMaterialAmMaps implements EntryPoint {
 
     @Override
     public void onModuleLoad() {
         // Inject Am4chart resources
-        MaterialDesignBase.injectJs(MapClientBundle.INSTANCE.mapJs());
+        GwtMaterialAmCore.injectJs(MapClientBundle.INSTANCE.mapJs());
     }
 }
