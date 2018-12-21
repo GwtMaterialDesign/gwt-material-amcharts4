@@ -3,11 +3,11 @@
 GwtMaterialDesign plus [AmCharts](https://www.amcharts.com/) Version 4 provides you professional and nice looking charts.
 
 
-[![Build Status](https://travis-ci.org/GwtMaterialDesign/gwt-material-amcharts.svg?branch=master)](https://travis-ci.org/GwtMaterialDesign/gwt-material-am4charts) [![Join the chat at https://gitter.im/GwtMaterialDesign/gwt-material](https://img.shields.io/badge/GITTER-join%20chat-green.svg)](https://gitter.im/GwtMaterialDesign/gwt-material?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build Status](https://travis-ci.org/GwtMaterialDesign/gwt-material-amcharts.svg?branch=master)](https://travis-ci.org/GwtMaterialDesign/gwt-material-amcharts4) [![Join the chat at https://gitter.im/GwtMaterialDesign/gwt-material](https://img.shields.io/badge/GITTER-join%20chat-green.svg)](https://gitter.im/GwtMaterialDesign/gwt-material?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## Demo
-* https://gwtmaterialdesign.github.io/gmd-am4charts-demo/
-* [Repository](https://github.com/GwtMaterialDesign/gmd-am4charts-demo)
+* https://gwtmaterialdesign.github.io/gmd-amcharts4-demo/
+* [Repository](https://github.com/GwtMaterialDesign/gmd-amcharts4-demo)
 ## Documentation
 AmCharts V4 Official Documentation can be found [here](https://www.amcharts.com/docs/v4/)
 

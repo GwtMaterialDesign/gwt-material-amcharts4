@@ -6,11 +6,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.gwtmaterialdesign</groupId>
-    <artifactId>gwt-material-amcharts</artifactId>
+    <artifactId>gwt-material-amcharts4</artifactId>
     <version>1.0-rc1</version>
     <packaging>gwt-lib</packaging>
 
-    <name>Gwt Material Am4charts</name>
+    <name>Gwt Material AmCharts V4</name>
 
     <properties>
         <!-- Project properties -->
