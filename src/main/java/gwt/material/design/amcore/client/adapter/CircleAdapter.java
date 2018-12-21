@@ -20,10 +20,11 @@
 package gwt.material.design.amcore.client.adapter;
 
 import gwt.material.design.amcore.client.ui.Circle;
+import jsinterop.annotations.JsPackage;
 import jsinterop.annotations.JsProperty;
 import jsinterop.annotations.JsType;
 
-@JsType(isNative = true)
+@JsType(isNative = true, namespace = JsPackage.GLOBAL)
 public class CircleAdapter extends Circle {
 
 }

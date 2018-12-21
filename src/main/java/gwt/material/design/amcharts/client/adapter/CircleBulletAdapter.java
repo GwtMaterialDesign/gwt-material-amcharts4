@@ -20,9 +20,10 @@
 package gwt.material.design.amcharts.client.adapter;
 
 import gwt.material.design.amcharts.client.bullet.CircleBullet;
+import jsinterop.annotations.JsPackage;
 import jsinterop.annotations.JsType;
 
-@JsType(isNative = true)
+@JsType(isNative = true, namespace = JsPackage.GLOBAL)
 public class CircleBulletAdapter extends CircleBullet {
 
 

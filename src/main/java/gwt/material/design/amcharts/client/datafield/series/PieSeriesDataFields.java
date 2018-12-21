@@ -19,10 +19,11 @@
  */
 package gwt.material.design.amcharts.client.datafield.series;
 
+import jsinterop.annotations.JsPackage;
 import jsinterop.annotations.JsProperty;
 import jsinterop.annotations.JsType;
 
-@JsType(isNative = true)
+@JsType(isNative = true, namespace = JsPackage.GLOBAL)
 public class PieSeriesDataFields extends PercentSeriesDataFields {
 
     @JsProperty

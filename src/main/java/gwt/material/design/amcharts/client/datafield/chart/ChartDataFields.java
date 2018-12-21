@@ -20,8 +20,9 @@
 package gwt.material.design.amcharts.client.datafield.chart;
 
 import gwt.material.design.amcore.client.base.IComponentDataFields;
+import jsinterop.annotations.JsPackage;
 import jsinterop.annotations.JsType;
 
-@JsType(isNative = true)
+@JsType(isNative = true, namespace = JsPackage.GLOBAL)
 public class ChartDataFields extends IComponentDataFields {
 }

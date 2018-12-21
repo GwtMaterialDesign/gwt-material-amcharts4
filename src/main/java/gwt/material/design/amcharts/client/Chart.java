@@ -26,10 +26,11 @@ import gwt.material.design.amcore.client.base.Container;
 import gwt.material.design.amcore.client.list.ListTemplate;
 import gwt.material.design.amcore.client.ui.Label;
 import jsinterop.annotations.JsMethod;
+import jsinterop.annotations.JsPackage;
 import jsinterop.annotations.JsProperty;
 import jsinterop.annotations.JsType;
 
-@JsType(isNative = true)
+@JsType(isNative = true, namespace = JsPackage.GLOBAL)
 public class Chart extends Component {
 
     @JsProperty

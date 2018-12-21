@@ -20,8 +20,9 @@
 package gwt.material.design.ammaps.client.datafields;
 
 import gwt.material.design.amcharts.client.datafield.chart.SerialChartDataFields;
+import jsinterop.annotations.JsPackage;
 import jsinterop.annotations.JsType;
 
-@JsType(isNative = true)
+@JsType(isNative = true, namespace = JsPackage.GLOBAL)
 public class MapChartDataFields extends SerialChartDataFields {
 }

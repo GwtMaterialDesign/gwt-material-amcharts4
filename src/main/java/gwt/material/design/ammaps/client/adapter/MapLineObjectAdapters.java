@@ -22,7 +22,7 @@ package gwt.material.design.ammaps.client.adapter;
 import gwt.material.design.ammaps.client.base.MapLineObject;
 import jsinterop.annotations.JsType;
 
-@JsType(isNative = true)
+@JsType(isNative = true, namespace = "am4maps")
 public class MapLineObjectAdapters extends MapLineObject {
 
 }

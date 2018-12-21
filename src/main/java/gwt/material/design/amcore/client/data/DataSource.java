@@ -27,10 +27,11 @@ import gwt.material.design.amcore.client.data.parser.DataParser;
 import gwt.material.design.amcore.client.formatter.DateFormatter;
 import gwt.material.design.amcore.client.properties.NetRequestOptions;
 import jsinterop.annotations.JsMethod;
+import jsinterop.annotations.JsPackage;
 import jsinterop.annotations.JsProperty;
 import jsinterop.annotations.JsType;
 
-@JsType(isNative = true)
+@JsType(isNative = true, namespace = JsPackage.GLOBAL)
 public class DataSource extends BaseObjectsEvents {
 
     @JsProperty

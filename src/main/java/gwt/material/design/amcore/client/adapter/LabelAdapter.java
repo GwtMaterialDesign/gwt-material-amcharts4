@@ -20,9 +20,10 @@
 package gwt.material.design.amcore.client.adapter;
 
 import gwt.material.design.amcore.client.ui.Label;
+import jsinterop.annotations.JsPackage;
 import jsinterop.annotations.JsType;
 
-@JsType(isNative = true)
+@JsType(isNative = true, namespace = JsPackage.GLOBAL)
 public class LabelAdapter extends Label {
 
 }

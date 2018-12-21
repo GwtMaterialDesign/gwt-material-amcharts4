@@ -21,10 +21,11 @@ package gwt.material.design.amcore.client.base;
 
 import gwt.material.design.amcore.client.events.EventDispatcher;
 import jsinterop.annotations.JsMethod;
+import jsinterop.annotations.JsPackage;
 import jsinterop.annotations.JsProperty;
 import jsinterop.annotations.JsType;
 
-@JsType(isNative = true)
+@JsType(isNative = true, namespace = JsPackage.GLOBAL)
 public class BaseObjectsEvents extends BaseObject {
 
     @JsProperty

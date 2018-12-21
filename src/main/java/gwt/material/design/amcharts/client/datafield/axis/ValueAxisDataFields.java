@@ -19,8 +19,9 @@
  */
 package gwt.material.design.amcharts.client.datafield.axis;
 
+import jsinterop.annotations.JsPackage;
 import jsinterop.annotations.JsType;
 
-@JsType(isNative = true)
+@JsType(isNative = true, namespace = JsPackage.GLOBAL)
 public class ValueAxisDataFields extends AxisDataFields {
 }

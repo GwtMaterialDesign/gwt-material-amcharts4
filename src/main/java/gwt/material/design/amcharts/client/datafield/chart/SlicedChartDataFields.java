@@ -19,9 +19,10 @@
  */
 package gwt.material.design.amcharts.client.datafield.chart;
 
+import jsinterop.annotations.JsPackage;
 import jsinterop.annotations.JsType;
 
-@JsType(isNative = true)
+@JsType(isNative = true, namespace = JsPackage.GLOBAL)
 public class SlicedChartDataFields extends PercentChartDataFields {
 
 }

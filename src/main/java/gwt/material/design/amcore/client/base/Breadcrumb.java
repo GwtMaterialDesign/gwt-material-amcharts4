@@ -20,11 +20,12 @@
 package gwt.material.design.amcore.client.base;
 
 import gwt.material.design.amcore.client.properties.Point;
+import jsinterop.annotations.JsPackage;
 import jsinterop.annotations.JsProperty;
 import jsinterop.annotations.JsType;
 
 
-@JsType(isNative = true)
+@JsType(isNative = true, namespace = JsPackage.GLOBAL)
 public class Breadcrumb {
 
     @JsProperty

@@ -20,10 +20,11 @@
 package gwt.material.design.amcore.client.list;
 
 import jsinterop.annotations.JsMethod;
+import jsinterop.annotations.JsPackage;
 import jsinterop.annotations.JsProperty;
 import jsinterop.annotations.JsType;
 
-@JsType(isNative = true)
+@JsType(isNative = true, namespace = JsPackage.GLOBAL)
 public class ListTemplate<T> extends List<T> {
 
     @JsProperty

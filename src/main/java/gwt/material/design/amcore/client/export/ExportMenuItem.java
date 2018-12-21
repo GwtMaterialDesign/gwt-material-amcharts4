@@ -21,10 +21,11 @@ package gwt.material.design.amcore.client.export;
 
 import gwt.material.design.amcore.client.base.InteractionObject;
 import gwt.material.design.amcore.client.list.List;
+import jsinterop.annotations.JsPackage;
 import jsinterop.annotations.JsProperty;
 import jsinterop.annotations.JsType;
 
-@JsType(isNative = true)
+@JsType(isNative = true, namespace = JsPackage.GLOBAL)
 public class ExportMenuItem {
 
     @JsProperty

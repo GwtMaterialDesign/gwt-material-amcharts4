@@ -19,9 +19,10 @@
  */
 package gwt.material.design.amcore.client.adapter;
 
+import jsinterop.annotations.JsPackage;
 import jsinterop.annotations.JsType;
 
-@JsType(isNative = true)
+@JsType(isNative = true, namespace = JsPackage.GLOBAL)
 public class SliceAdapter extends ContainerAdapter {
 
 

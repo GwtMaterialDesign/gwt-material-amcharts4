@@ -24,10 +24,11 @@ import gwt.material.design.amcore.client.data.DataSource;
 import gwt.material.design.amcore.client.dataitem.DataItem;
 import gwt.material.design.amcore.client.list.OrderedList;
 import jsinterop.annotations.JsMethod;
+import jsinterop.annotations.JsPackage;
 import jsinterop.annotations.JsProperty;
 import jsinterop.annotations.JsType;
 
-@JsType(isNative = true)
+@JsType(isNative = true, namespace = JsPackage.GLOBAL)
 public class Component extends Container {
 
     @JsProperty
