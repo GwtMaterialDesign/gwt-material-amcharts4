@@ -32,7 +32,7 @@ import jsinterop.annotations.JsType;
 public class Component extends Container {
 
     @JsProperty
-    public Object data;
+    public JavaScriptObject data;
 
     @JsProperty
     public IComponentDataFields dataFields;

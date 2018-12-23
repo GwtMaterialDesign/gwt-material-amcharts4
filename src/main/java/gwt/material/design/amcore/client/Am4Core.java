@@ -60,6 +60,9 @@ public class Am4Core {
     @JsProperty(namespace = "am4core", name = "Circle")
     public static Circle Circle;
 
+    @JsProperty(namespace = "am4core", name = "Line")
+    public static Line Line;
+
     @JsProperty(namespace = "am4core", name = "ease")
     public static Ease ease;
 
