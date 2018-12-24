@@ -28,8 +28,11 @@ import gwt.material.design.amcore.client.base.BaseObjectsEvents;
 import gwt.material.design.amcore.client.base.Sprite;
 import gwt.material.design.amcore.client.constants.CalculatedValue;
 import jsinterop.annotations.JsMethod;
+import jsinterop.annotations.JsOverlay;
 import jsinterop.annotations.JsProperty;
 import jsinterop.annotations.JsType;
+
+import java.util.Date;
 
 @JsType(isNative = true, namespace = "am4charts")
 public class DataItem extends BaseObjectsEvents {
@@ -118,6 +121,11 @@ public class DataItem extends BaseObjectsEvents {
     @JsMethod
     public native JsDate getDate(String name);
 
+    @JsOverlay
+    public final Date _getDate(String name) {
+        return new Date((long) getDate(name).getTime());
+    }
+
     @JsMethod
     public native int getDuration();
 
@@ -157,8 +165,18 @@ public class DataItem extends BaseObjectsEvents {
     @JsMethod
     public native void setDate(String name, JsDate date);
 
+    @JsOverlay
+    public final void setDate(String name, Date date) {
+        setDate(name, JsDate.create(date.getTime()));
+    }
+
     @JsMethod
     public native void setDate(String name, JsDate date, int duration);
+
+    @JsOverlay
+    public final void setDate(String name, Date date, int duration) {
+        setDate(name, JsDate.create(date.getTime()), duration);
+    }
 
     @JsMethod
     public native void setLocation(String name, double value);

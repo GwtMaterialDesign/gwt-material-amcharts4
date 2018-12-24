@@ -39,6 +39,12 @@ public class RoundedRectangle extends Sprite {
     @JsProperty
     public double cornerRadiusTopRight;
 
+    @JsProperty
+    public int tooltipY;
+
+    @JsProperty
+    public int tooltipX;
+
     @JsMethod
     public native void cornerRadius(double topLeft, double topRight, double belowLeft, double belowRight);
 }

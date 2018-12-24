@@ -7,9 +7,9 @@
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *      http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -28,8 +28,11 @@ import gwt.material.design.amcharts.client.series.XYSeries;
 import gwt.material.design.amcore.client.list.*;
 import gwt.material.design.amcore.client.properties.OrientationPoint;
 import jsinterop.annotations.JsMethod;
+import jsinterop.annotations.JsOverlay;
 import jsinterop.annotations.JsProperty;
 import jsinterop.annotations.JsType;
+
+import java.util.Date;
 
 @JsType(isNative = true, namespace = "am4charts")
 public class DateAxis extends ValueAxis {
@@ -56,7 +59,7 @@ public class DateAxis extends ValueAxis {
     public boolean skipEmptyPeriods;
 
     @JsProperty
-    public String tooltipDateFormat ;
+    public String tooltipDateFormat;
 
     @JsProperty
     public DateAxisDataFields dataFields;
@@ -85,8 +88,18 @@ public class DateAxis extends ValueAxis {
     @JsMethod
     public native OrientationPoint dateToPoint(JsDate date);
 
+    @JsOverlay
+    public final OrientationPoint dateToPoint(Date date) {
+        return dateToPoint(JsDate.create(date.getTime()));
+    }
+
     @JsMethod
     public native double dateToPosition(JsDate date);
+
+    @JsOverlay
+    public final double dateToPosition(Date date) {
+        return dateToPosition(JsDate.create(date.getTime()));
+    }
 
     @JsMethod
     public native void fillRule(DateAxisDataItem dataItem);
@@ -103,6 +116,11 @@ public class DateAxis extends ValueAxis {
     @JsMethod
     public native JsDate positionToDate(double position);
 
+    @JsOverlay
+    public final Date _positionToDate(double position) {
+        return new Date((long) positionToDate(position).getTime());
+    }
+
     @JsMethod
     public native void appendDataItem(DateAxisDataItem dataItem);
 
@@ -112,6 +130,16 @@ public class DateAxis extends ValueAxis {
     @JsMethod
     public native void zoomToDates(JsDate startDate, JsDate endDate);
 
+    @JsOverlay
+    public final void zoomToDates(Date startDate, Date endDate) {
+        zoomToDates(JsDate.create(startDate.getTime()), JsDate.create(endDate.getTime()));
+    }
+
     @JsMethod
     public native void zoomToDates(JsDate startDate, JsDate endDate, boolean skipRangeEvent, boolean instantly);
+
+    @JsOverlay
+    public final void zoomToDates(Date startDate, Date endDate, boolean skipRangeEvent, boolean instantly) {
+        zoomToDates(JsDate.create(startDate.getTime()), JsDate.create(endDate.getTime()), skipRangeEvent, instantly);
+    }
 }

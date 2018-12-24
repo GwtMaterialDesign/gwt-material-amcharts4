@@ -35,16 +35,14 @@ import gwt.material.design.amcore.client.formatter.DurationFormatter;
 import gwt.material.design.amcore.client.formatter.NumberFormatter;
 import gwt.material.design.amcore.client.list.Dictionary;
 import gwt.material.design.amcore.client.list.DictionaryTemplate;
+import gwt.material.design.amcore.client.list.List;
 import gwt.material.design.amcore.client.list.ListTemplate;
 import gwt.material.design.amcore.client.properties.*;
 import gwt.material.design.amcore.client.state.SpriteState;
 import gwt.material.design.jscore.client.api.core.Element;
 import jsinterop.annotations.JsMethod;
-import jsinterop.annotations.JsOverlay;
 import jsinterop.annotations.JsProperty;
 import jsinterop.annotations.JsType;
-
-import java.util.List;
 
 
 @JsType(isNative = true, namespace = "am4core")

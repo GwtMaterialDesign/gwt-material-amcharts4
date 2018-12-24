@@ -21,6 +21,7 @@ package gwt.material.design.amcharts.client.column;
 
 import gwt.material.design.amcharts.client.dataitem.ColumnSeriesDataItem;
 import gwt.material.design.amcharts.client.properties.ColumnProperties;
+import gwt.material.design.amcore.client.adapter.Adapter;
 import gwt.material.design.amcore.client.base.Container;
 import gwt.material.design.amcore.client.events.SpriteEventDispatcher;
 import gwt.material.design.amcore.client.list.DictionaryTemplate;

@@ -82,8 +82,10 @@ public class TreeMap extends XYChart {
     @JsProperty
     public ListTemplate<TreeMapSeries> series;
 
+/*
     @JsProperty
     public SpriteEventDispatcher<TreeMap> events;
+*/
 
     @JsMethod
     public native void zoomToSeriesDataItem(TreeMapSeriesDataItem dataItem);

@@ -63,7 +63,6 @@ public class ChartData<T> {
         return array.getJavaScriptObject();
     }
 
-
     public List<T> getData() {
         return data;
     }
