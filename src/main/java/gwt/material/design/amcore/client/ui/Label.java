@@ -19,8 +19,6 @@
  */
 package gwt.material.design.amcore.client.ui;
 
-import gwt.material.design.amcore.client.adapter.Adapter;
-import gwt.material.design.amcore.client.adapter.LabelAdapter;
 import gwt.material.design.amcore.client.base.AMElement;
 import gwt.material.design.amcore.client.base.Container;
 import jsinterop.annotations.JsMethod;
@@ -29,9 +27,6 @@ import jsinterop.annotations.JsType;
 
 @JsType(isNative = true, namespace = "am4core")
 public class Label extends Container {
-
-    @JsProperty
-    public Adapter<Label, LabelAdapter> adapter;
 
     @JsProperty
     public double availableHeight;

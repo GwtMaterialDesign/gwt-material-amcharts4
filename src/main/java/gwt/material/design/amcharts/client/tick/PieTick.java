@@ -17,21 +17,19 @@
  * limitations under the License.
  * #L%
  */
-package gwt.material.design.amcharts.client.column;
+package gwt.material.design.amcharts.client.tick;
 
-import gwt.material.design.amcharts.client.properties.RadarColumnProperties;
+import gwt.material.design.amcharts.client.axis.AxisLabelCircular;
 import gwt.material.design.amcore.client.base.Slice;
-import gwt.material.design.amcore.client.list.DictionaryTemplate;
-import gwt.material.design.amcore.client.state.SpriteState;
 import jsinterop.annotations.JsProperty;
 import jsinterop.annotations.JsType;
 
 @JsType(isNative = true, namespace = "am4charts")
-public class RadarColumn extends Column {
+public class PieTick extends Tick {
 
-   @JsProperty
-   public Slice radarColumn;
+    @JsProperty
+    public AxisLabelCircular label;
 
-   @JsProperty
-   public DictionaryTemplate<String, SpriteState<RadarColumnProperties>> states;
+    @JsProperty
+    public Slice slice;
 }

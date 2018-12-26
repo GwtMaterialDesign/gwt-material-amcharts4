@@ -21,7 +21,9 @@ package gwt.material.design.amcharts.client.series;
 
 import gwt.material.design.amcharts.client.datafield.series.PieSeriesDataFields;
 import gwt.material.design.amcharts.client.properties.PieSeriesProperties;
+import gwt.material.design.amcharts.client.tick.PieTick;
 import gwt.material.design.amcore.client.base.Percent;
+import gwt.material.design.amcore.client.list.ListTemplate;
 import gwt.material.design.amcore.client.properties.SpriteProperties;
 import gwt.material.design.amcore.client.state.SpriteState;
 import jsinterop.annotations.JsProperty;
@@ -41,5 +43,8 @@ public class PieSeries extends PercentSeries {
 
     @JsProperty
     public SpriteState<PieSeriesProperties> hiddenState;
+
+    @JsProperty
+    public ListTemplate<PieTick> ticks;
 
 }

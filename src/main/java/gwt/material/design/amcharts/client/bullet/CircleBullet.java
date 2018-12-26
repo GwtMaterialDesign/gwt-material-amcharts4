@@ -19,8 +19,6 @@
  */
 package gwt.material.design.amcharts.client.bullet;
 
-import gwt.material.design.amcore.client.adapter.Adapter;
-import gwt.material.design.amcharts.client.adapter.CircleBulletAdapter;
 import gwt.material.design.amcharts.client.properties.CircleBulletProperties;
 import gwt.material.design.amcore.client.list.DictionaryTemplate;
 import gwt.material.design.amcore.client.state.SpriteState;
@@ -31,9 +29,6 @@ import jsinterop.annotations.JsType;
 
 @JsType(isNative = true, namespace = "am4charts")
 public class CircleBullet extends Bullet {
-
-    @JsProperty
-    public Adapter<CircleBullet, CircleBulletAdapter> adapter;
 
     @JsProperty
     public Circle circle;

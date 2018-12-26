@@ -19,13 +19,9 @@
  */
 package gwt.material.design.amcore.client.base;
 
-import gwt.material.design.amcore.client.adapter.Adapter;
-import gwt.material.design.amcore.client.adapter.SliceAdapter;
-import gwt.material.design.amcore.client.adapter.SpriteAdapter;
 import gwt.material.design.amcore.client.color.Color;
 import gwt.material.design.amcore.client.list.DictionaryTemplate;
 import gwt.material.design.amcore.client.properties.SliceProperties;
-import gwt.material.design.amcore.client.properties.SpriteProperties;
 import gwt.material.design.amcore.client.state.SpriteState;
 import jsinterop.annotations.JsMethod;
 import jsinterop.annotations.JsProperty;
@@ -33,9 +29,6 @@ import jsinterop.annotations.JsType;
 
 @JsType(isNative = true, namespace = "am4core")
 public class Slice extends Container {
-
-    @JsProperty
-    public Adapter<Slice, SliceAdapter> adapter;
 
     @JsProperty
     public double arc;

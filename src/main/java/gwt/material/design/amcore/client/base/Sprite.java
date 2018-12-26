@@ -20,7 +20,6 @@
 package gwt.material.design.amcore.client.base;
 
 import gwt.material.design.amcore.client.adapter.Adapter;
-import gwt.material.design.amcore.client.adapter.SpriteAdapter;
 import gwt.material.design.amcore.client.animation.Animation;
 import gwt.material.design.amcore.client.animation.InertiaOptions;
 import gwt.material.design.amcore.client.animation.InertialTypes;
@@ -49,7 +48,7 @@ import jsinterop.annotations.JsType;
 public class Sprite extends BaseObjectsEvents {
 
     @JsProperty
-    public Adapter<Sprite, SpriteAdapter> adapter;
+    public Adapter adapter;
 
     /**
      * @see Align

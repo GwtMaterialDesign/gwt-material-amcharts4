@@ -20,8 +20,6 @@
 package gwt.material.design.amcore.client.dataitem;
 
 import com.google.gwt.core.client.JsDate;
-import gwt.material.design.amcore.client.adapter.Adapter;
-import gwt.material.design.amcore.client.adapter.DataItemAdapter;
 import gwt.material.design.amcore.client.animation.Animation;
 import gwt.material.design.amcore.client.animation.AnimationOptions;
 import gwt.material.design.amcore.client.base.BaseObjectsEvents;
@@ -36,9 +34,6 @@ import java.util.Date;
 
 @JsType(isNative = true, namespace = "am4charts")
 public class DataItem extends BaseObjectsEvents {
-
-    @JsProperty
-    public Adapter<DataItem, DataItemAdapter> adapter;
 
     @JsProperty
     public Animation[] animations;

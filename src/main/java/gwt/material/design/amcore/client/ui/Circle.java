@@ -19,8 +19,6 @@
  */
 package gwt.material.design.amcore.client.ui;
 
-import gwt.material.design.amcore.client.adapter.Adapter;
-import gwt.material.design.amcore.client.adapter.CircleAdapter;
 import gwt.material.design.amcore.client.base.Percent;
 import gwt.material.design.amcore.client.base.Sprite;
 import jsinterop.annotations.JsProperty;
@@ -28,9 +26,6 @@ import jsinterop.annotations.JsType;
 
 @JsType(isNative = true, namespace = "am4core")
 public class Circle extends Sprite {
-
-    @JsProperty
-    public Adapter<Circle, CircleAdapter> adapter;
 
     @JsProperty
     public double pixelRadius;

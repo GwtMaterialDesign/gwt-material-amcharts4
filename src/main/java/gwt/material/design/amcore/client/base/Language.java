@@ -19,8 +19,6 @@
  */
 package gwt.material.design.amcore.client.base;
 
-import gwt.material.design.amcore.client.adapter.Adapter;
-import gwt.material.design.amcore.client.adapter.LanguageAdapter;
 import gwt.material.design.amcore.client.properties.Locale;
 import jsinterop.annotations.JsMethod;
 import jsinterop.annotations.JsProperty;
@@ -28,9 +26,6 @@ import jsinterop.annotations.JsType;
 
 @JsType(isNative = true, namespace = "am4core")
 public class Language extends BaseObjectsEvents {
-
-    @JsProperty
-    public Adapter<Language, LanguageAdapter> adapter;
 
     @JsProperty
     public Locale locale;

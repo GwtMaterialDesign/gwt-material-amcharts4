@@ -29,9 +29,6 @@ import jsinterop.annotations.JsType;
 public class MapLineObject extends Container {
 
     @JsProperty
-    public Adapter<MapLineObject, MapLineObjectAdapters> adapter;
-
-    @JsProperty
     public boolean adjustRotation;
 
     @JsProperty
