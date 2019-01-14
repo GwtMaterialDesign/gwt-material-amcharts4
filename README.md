@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/1q1K6BU.png" width="60%"/>
+<img src="https://i.imgur.com/U8IIMaY.png" width="120px"/>
 
 GwtMaterialDesign plus [AmCharts](https://www.amcharts.com/) Version 4 provides you professional and nice looking charts.
 
