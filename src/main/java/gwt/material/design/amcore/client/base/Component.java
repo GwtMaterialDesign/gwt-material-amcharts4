@@ -79,6 +79,14 @@ public class Component extends Container {
     @JsProperty
     public double zoomFactor;
 
+    /**
+     * Use this for CategoryAxis or DateAxis.
+     * Allows restricting zoom in beyond certain number of categories or base intervals.
+     * @default 1
+     */
+    @JsProperty
+    public int minZoomCount;
+
     @JsMethod
     public native void addData(Object[] rawDataItem, int removeCount);
 

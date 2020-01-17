@@ -347,6 +347,11 @@ public class Sprite extends BaseObjectsEvents {
     @JsProperty
     public SpriteProperties properties;
 
+    /**
+     * A collection of key/value pairs that can be used to bind specific Sprite properties to DataItem.     *
+     * For example: fill property can be bound to myCustomColor field in DataItem. The Sprite will automatically get the value for fill from its DataItem.     *
+     * Can be set for each SpriteState individually to override default bindings.
+     */
     @JsProperty
     public Object propertyFields;
 

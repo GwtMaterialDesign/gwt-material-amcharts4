@@ -24,6 +24,7 @@ import gwt.material.design.amcharts.client.datafield.axis.AxisDataFields;
 import gwt.material.design.amcharts.client.dataitem.AxisDataItem;
 import gwt.material.design.amcharts.client.renderer.AxisRenderer;
 import gwt.material.design.amcharts.client.series.XYSeries;
+import gwt.material.design.amcore.client.base.Component;
 import gwt.material.design.amcore.client.base.Sprite;
 import gwt.material.design.amcore.client.events.SpriteEventDispatcher;
 import gwt.material.design.amcore.client.list.*;
@@ -36,7 +37,7 @@ import jsinterop.annotations.JsProperty;
 import jsinterop.annotations.JsType;
 
 @JsType(isNative = true, namespace = "am4charts")
-public class Axis extends Sprite {
+public class Axis extends Component {
 
     @JsProperty
     public boolean autoDispose;
