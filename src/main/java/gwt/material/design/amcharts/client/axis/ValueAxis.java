@@ -21,6 +21,7 @@ package gwt.material.design.amcharts.client.axis;
 
 import gwt.material.design.amcharts.client.SerialChart;
 import gwt.material.design.amcharts.client.dataitem.ValueAxisDataItem;
+import gwt.material.design.amcharts.client.renderer.AxisRenderer;
 import gwt.material.design.amcore.client.list.List;
 import gwt.material.design.amcharts.client.datafield.axis.ValueAxisDataFields;
 import gwt.material.design.amcore.client.list.ListTemplate;

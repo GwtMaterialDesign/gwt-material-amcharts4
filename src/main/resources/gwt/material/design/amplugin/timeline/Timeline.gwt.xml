@@ -21,19 +21,19 @@
 
 <!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.7.0//EN"
         "http://gwtproject.org/doctype/2.7.0/gwt-module.dtd">
-<module rename-to='GwtMaterialAmChart'>
+<module rename-to='Timeline'>
     <set-configuration-property name="CssResource.conversionMode" value="strict"/>
 
     <inherits name='com.google.gwt.user.User'/>
     <inherits name="com.google.gwt.core.Core"/>
-    <inherits name="com.google.gwt.dom.DOM"/>
 
-    <inherits name="gwt.material.design.jquery.JQuery"/>
-    <inherits name="gwt.material.design.amcore.GwtMaterialAmCore"/>
+    <inherits name="gwt.material.design.amcharts.GwtMaterialAmCharts"/>
 
     <!-- Specify the paths for translatable code                    -->
     <source path='client'/>
 
     <set-configuration-property name="CssResource.enableGss" value="true"/>
+
+    <entry-point class='gwt.material.design.amplugin.timeline.client.TimeLine'/>
     <!--<set-configuration-property name="CssResource.legacy" value="true"/>-->
 </module>
