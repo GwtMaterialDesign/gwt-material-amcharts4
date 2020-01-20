@@ -34,6 +34,6 @@
 
     <set-configuration-property name="CssResource.enableGss" value="true"/>
 
-    <entry-point class='gwt.material.design.amplugin.bullets.client.Bullets'/>
+    <entry-point class='gwt.material.design.amplugin.bullets.client.BulletsPlugin'/>
     <!--<set-configuration-property name="CssResource.legacy" value="true"/>-->
 </module>

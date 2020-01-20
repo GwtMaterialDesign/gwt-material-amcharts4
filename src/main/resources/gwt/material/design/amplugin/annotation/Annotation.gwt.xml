@@ -34,6 +34,6 @@
 
     <set-configuration-property name="CssResource.enableGss" value="true"/>
 
-    <entry-point class='gwt.material.design.amplugin.timeline.client.TimeLinePlugin'/>
+    <entry-point class='gwt.material.design.amplugin.annotation.client.AnnotationPlugin'/>
     <!--<set-configuration-property name="CssResource.legacy" value="true"/>-->
 </module>

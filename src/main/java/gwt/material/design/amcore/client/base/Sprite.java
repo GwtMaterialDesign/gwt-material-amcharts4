@@ -342,6 +342,9 @@ public class Sprite extends BaseObjectsEvents {
     public double pixelY;
 
     @JsProperty
+    public List<Object> plugins;
+
+    @JsProperty
     public ListTemplate<Popup> popups;
 
     @JsProperty

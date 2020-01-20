@@ -4,7 +4,7 @@ import com.google.gwt.core.client.EntryPoint;
 import gwt.material.design.amcore.client.GwtMaterialAmCore;
 import gwt.material.design.amplugin.timeline.client.resources.TimeLineResources;
 
-public class TimeLine implements EntryPoint {
+public class TimeLinePlugin implements EntryPoint {
 
     @Override
     public void onModuleLoad() {
