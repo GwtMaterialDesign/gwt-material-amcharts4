@@ -30,7 +30,7 @@ public interface PluginClientBundle extends ClientBundle {
     @Source("../../../../../../../resources/gwt/material/design/plugin/resources/js/annotation.js")
     TextResource annotation();
 
-    @Source("../../../../../../../resources/gwt/material/design/plugin/resources/js/bullets.js")
+    @Source("../../../../../../../resources/gwt/material/design/amplugin/bullets/client/resources/js/bullets.js")
     TextResource bullets();
 
     @Source("../../../../../../../resources/gwt/material/design/plugin/resources/js/forceDirected.js")
