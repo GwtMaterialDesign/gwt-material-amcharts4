@@ -23,6 +23,8 @@ import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.ScriptInjector;
 import com.google.gwt.resources.client.TextResource;
 import gwt.material.design.amcore.client.resources.CoreClientBundle;
+import gwt.material.design.amcore.client.resources.DepsClientBundle;
+import gwt.material.design.amcore.client.resources.ThemeClientBundle;
 
 public class GwtMaterialAmCore implements EntryPoint {
 
@@ -30,6 +32,9 @@ public class GwtMaterialAmCore implements EntryPoint {
     public void onModuleLoad() {
         // Inject Am4chart resources
         injectJs(CoreClientBundle.INSTANCE.coreJs());
+        injectJs(DepsClientBundle.INSTANCE.canvJs());
+        injectJs(DepsClientBundle.INSTANCE.pdfMakeJs());
+        injectJs(DepsClientBundle.INSTANCE.xlsxJs());
     }
 
     public static void injectJs(TextResource resource) {

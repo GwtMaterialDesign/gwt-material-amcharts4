@@ -20,6 +20,7 @@
 package gwt.material.design.amcore.client.animation;
 
 import gwt.material.design.amcore.client.base.BaseObjectsEvents;
+import gwt.material.design.amcore.client.base.Sprite;
 import gwt.material.design.amcore.client.events.EventDispatcher;
 import jsinterop.annotations.JsConstructor;
 import jsinterop.annotations.JsMethod;
@@ -54,6 +55,12 @@ public class Animation extends BaseObjectsEvents {
 
     @JsProperty
     public int progress;
+
+    /**
+     * An animation target object. Animation will update properties of this object.
+     */
+    @JsProperty
+    public Sprite object;
 
     @JsMethod
     public native Animation delay();
