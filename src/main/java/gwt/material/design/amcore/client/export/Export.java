@@ -28,4 +28,16 @@ public class Export {
 
     @JsProperty
     public ExportMenu menu;
+
+    @JsProperty
+    public String filePrefix;
+
+    @JsProperty
+    public String title;
+
+    @JsProperty
+    public boolean useRetina;
+
+    @JsProperty
+    public boolean useWebFonts;
 }
