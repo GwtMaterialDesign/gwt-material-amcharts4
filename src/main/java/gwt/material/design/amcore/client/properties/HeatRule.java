@@ -25,19 +25,19 @@ import jsinterop.annotations.JsProperty;
 import jsinterop.annotations.JsType;
 
 @JsType(isNative = true, name = "Object", namespace = JsPackage.GLOBAL)
-public class HeatRule<T> {
+public class HeatRule {
 
     @JsProperty
     public String dataField;
 
     @JsProperty
-    public T max;
+    public Object max;
 
     @JsProperty
     public double maxValue;
 
     @JsProperty
-    public T min;
+    public Object min;
 
     @JsProperty
     public double minValue;
