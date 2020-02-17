@@ -26,6 +26,7 @@
 
     <inherits name='com.google.gwt.user.User'/>
     <inherits name="com.google.gwt.core.Core"/>
+    <inherits name="com.google.gwt.dom.DOM"/>
 
     <inherits name="gwt.material.design.jquery.JQuery"/>
     <inherits name="gwt.material.design.amcore.GwtMaterialAmCore"/>

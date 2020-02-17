@@ -7,9 +7,9 @@
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *      http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -25,9 +25,11 @@ import gwt.material.design.amcharts.client.dataitem.AxisDataItem;
 import gwt.material.design.amcharts.client.renderer.AxisRenderer;
 import gwt.material.design.amcharts.client.series.XYSeries;
 import gwt.material.design.amcore.client.base.Component;
-import gwt.material.design.amcore.client.base.Sprite;
 import gwt.material.design.amcore.client.events.SpriteEventDispatcher;
-import gwt.material.design.amcore.client.list.*;
+import gwt.material.design.amcore.client.list.DictionaryTemplate;
+import gwt.material.design.amcore.client.list.List;
+import gwt.material.design.amcore.client.list.ListTemplate;
+import gwt.material.design.amcore.client.list.SortedListTemplate;
 import gwt.material.design.amcore.client.properties.OrientationPoint;
 import gwt.material.design.amcore.client.properties.Point;
 import gwt.material.design.amcore.client.state.SpriteState;

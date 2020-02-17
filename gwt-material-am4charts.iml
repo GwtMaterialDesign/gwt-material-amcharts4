@@ -13,6 +13,7 @@
           <module name="gwt.material.design.amcore.GwtMaterialAmCore" enabled="false" />
           <module name="gwt.material.design.ammaps.GwtMaterialAmMaps" enabled="false" />
           <module name="gwt.material.design.ammaps.GwtMaterialAmMapsBase" enabled="false" />
+          <module name="gwt.material.design.amplugin.timeline.Timeline" enabled="false" />
         </packaging>
       </configuration>
     </facet>

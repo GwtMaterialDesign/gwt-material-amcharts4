@@ -19,11 +19,15 @@
  */
 package gwt.material.design.amcore.client.ui;
 
+import gwt.material.design.amcore.client.properties.OrientationPoint;
 import jsinterop.annotations.JsProperty;
 import jsinterop.annotations.JsType;
 
 @JsType(isNative = true, namespace = "am4core")
 public class Polyspline extends PolyLine {
+
+    @JsProperty
+    public OrientationPoint[] allPoints;
 
     @JsProperty
     public double tensionX;

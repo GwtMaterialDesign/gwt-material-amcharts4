@@ -51,6 +51,9 @@ public class XYChart extends SerialChart {
     @JsProperty
     public boolean maskBullets;
 
+    @JsProperty
+    public Container tooltipContainer;
+
     /**
      * @see MouseWheelBehavior
      */
