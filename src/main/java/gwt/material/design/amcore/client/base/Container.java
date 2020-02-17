@@ -34,7 +34,7 @@ import jsinterop.annotations.JsType;
 public class Container extends Sprite {
 
     @JsProperty
-    public Sprite background;
+    public PointedRectangle background;
 
     @JsProperty
     public List<Sprite> children;

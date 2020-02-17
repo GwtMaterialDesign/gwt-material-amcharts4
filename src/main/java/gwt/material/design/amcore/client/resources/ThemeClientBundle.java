@@ -50,4 +50,16 @@ public interface ThemeClientBundle extends ClientBundle {
 
     @Source("js/themes/spiritedaway.js")
     TextResource spiritedAway();
+
+    @Source("js/themes/microchart.js")
+    TextResource microchartJs();
+
+    @Source("js/themes/patterns.js")
+    TextResource patternsJs();
+
+    @Source("js/themes/amcharts.js")
+    TextResource amchartsJs();
+
+    @Source("js/themes/amchartsdark.js")
+    TextResource amchartsdarkJs();
 }

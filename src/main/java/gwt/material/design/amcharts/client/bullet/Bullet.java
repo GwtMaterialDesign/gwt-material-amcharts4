@@ -23,7 +23,6 @@ import gwt.material.design.amcore.client.base.Container;
 import gwt.material.design.amcore.client.events.SpriteEventDispatcher;
 import gwt.material.design.amcore.client.ui.Label;
 import jsinterop.annotations.JsMethod;
-import jsinterop.annotations.JsOverlay;
 import jsinterop.annotations.JsProperty;
 import jsinterop.annotations.JsType;
 
@@ -56,10 +55,4 @@ public class Bullet extends Container {
 
     @JsMethod
     public native void deepInvalidate();
-
-    @JsOverlay
-    public final void propertyFields_disabled(Object propertyField, String state) { /*-{
-        propertyField.disabled = state;
-    }-*/
-    }
 }

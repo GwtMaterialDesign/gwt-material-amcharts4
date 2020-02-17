@@ -27,6 +27,21 @@ public interface LanguageClientBundle extends ClientBundle {
 
     LanguageClientBundle INSTANCE = GWT.create(LanguageClientBundle.class);
 
+    @Source("js/lang/ar.js")
+    TextResource ar();
+
+    @Source("js/lang/bs_BA.js")
+    TextResource bsBA();
+
+    @Source("js/lang/ca_ES.js")
+    TextResource caES();
+
+    @Source("js/lang/cs_CZ.js")
+    TextResource csCZ();
+
+    @Source("js/lang/da_DK.js")
+    TextResource daDK();
+
     @Source("js/lang/de_CH.js")
     TextResource deCH();
 
@@ -43,16 +58,55 @@ public interface LanguageClientBundle extends ClientBundle {
     TextResource enUS();
 
     @Source("js/lang/es_ES.js")
-    TextResource enES();
+    TextResource esES();
+
+    @Source("js/lang/et_EE.js")
+    TextResource etEE();
+
+    @Source("js/lang/fi_FI.js")
+    TextResource fiFI();
 
     @Source("js/lang/fr_FR.js")
     TextResource frFR();
 
+    @Source("js/lang/he_IL.js")
+    TextResource heIL();
+
+    @Source("js/lang/hi_IN.js")
+    TextResource hiIN();
+
+    @Source("js/lang/hu_HU.js")
+    TextResource huHU();
+
+    @Source("js/lang/hr_HR.js")
+    TextResource hrHR();
+
+    @Source("js/lang/id_ID.js")
+    TextResource idID();
+
+    @Source("js/lang/it_IT.js")
+    TextResource itIT();
+
+    @Source("js/lang/ja_JP.js")
+    TextResource jaJP();
+
+    @Source("js/lang/ko_KR.js")
+    TextResource koKR();
+
     @Source("js/lang/lt_LT.js")
     TextResource ltLT();
 
+    @Source("js/lang/lv_LV.js")
+    TextResource lvLV();
+
+    @Source("js/lang/nb_NO.js")
+    TextResource nbNO();
+
     @Source("js/lang/nl_NL.js")
     TextResource nlNL();
+
+    @Source("js/lang/pl_PL.js")
+    TextResource plPL();
 
     @Source("js/lang/pt_BR.js")
     TextResource ptBR();
@@ -60,9 +114,39 @@ public interface LanguageClientBundle extends ClientBundle {
     @Source("js/lang/pt_PT.js")
     TextResource ptPT();
 
+    @Source("js/lang/ro_RO.js")
+    TextResource roRO();
+
     @Source("js/lang/ru_RU.js")
     TextResource ruRU();
 
+    @Source("js/lang/sl_SL.js")
+    TextResource slSL();
+
+    @Source("js/lang/sr_RS.js")
+    TextResource srRS();
+
+    @Source("js/lang/sv_SE.js")
+    TextResource svSE();
+
     @Source("js/lang/sv_SV.js")
     TextResource svSV();
+
+    @Source("js/lang/th_TH.js")
+    TextResource thTH();
+
+    @Source("js/lang/tr_TR.js")
+    TextResource trTR();
+
+    @Source("js/lang/uk_UA.js")
+    TextResource ukUA();
+
+    @Source("js/lang/vi_VN.js")
+    TextResource viVN();
+
+    @Source("js/lang/zh_Hans.js")
+    TextResource zhHans();
+
+    @Source("js/lang/zh_Hant.js")
+    TextResource zhHant();
 }

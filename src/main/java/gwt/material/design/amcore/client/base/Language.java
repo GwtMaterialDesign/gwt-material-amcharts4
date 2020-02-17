@@ -31,6 +31,9 @@ public class Language extends BaseObjectsEvents {
     public Locale locale;
 
     @JsMethod
+    public native Language constructor();
+
+    @JsMethod
     public native boolean isDefault();
 
     @JsMethod

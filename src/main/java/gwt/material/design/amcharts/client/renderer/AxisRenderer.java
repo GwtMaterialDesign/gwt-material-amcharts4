@@ -110,5 +110,5 @@ public class AxisRenderer extends Container {
     public native AxisTick createTick();
 
     @JsMethod
-    public native Number positionToCoordinate(double position);
+    public native double positionToCoordinate(double position);
 }
