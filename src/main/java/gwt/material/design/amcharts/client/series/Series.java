@@ -46,7 +46,7 @@ public class Series extends Component {
     public List<AxisDataItem> axisRanges;
 
     @JsProperty
-    public ListTemplate<Bullet> bullets;
+    public ListTemplate<Sprite> bullets;
 
     @JsProperty
     public boolean calculatePercent;

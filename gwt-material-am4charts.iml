@@ -13,7 +13,15 @@
           <module name="gwt.material.design.amcore.GwtMaterialAmCore" enabled="false" />
           <module name="gwt.material.design.ammaps.GwtMaterialAmMaps" enabled="false" />
           <module name="gwt.material.design.ammaps.GwtMaterialAmMapsBase" enabled="false" />
+          <module name="gwt.material.design.amplugin.annotation.Annotation" enabled="false" />
+          <module name="gwt.material.design.amplugin.bullets.Bullets" enabled="false" />
+          <module name="gwt.material.design.amplugin.forcedirected.ForceDirected" enabled="false" />
+          <module name="gwt.material.design.amplugin.overlapbuster.OverlapBuster" enabled="false" />
+          <module name="gwt.material.design.amplugin.regression.Regression" enabled="false" />
+          <module name="gwt.material.design.amplugin.slicegrouper.SliceGrouper" enabled="false" />
+          <module name="gwt.material.design.amplugin.sunburst.Sunburst" enabled="false" />
           <module name="gwt.material.design.amplugin.timeline.Timeline" enabled="false" />
+          <module name="gwt.material.design.amplugin.wordcloud.WordCloud" enabled="false" />
         </packaging>
       </configuration>
     </facet>
