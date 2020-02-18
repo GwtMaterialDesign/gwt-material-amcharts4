@@ -2,7 +2,7 @@
  * #%L
  * GwtMaterial
  * %%
- * Copyright (C) 2015 - 2018 GwtMaterialDesign
+ * Copyright (C) 2015 - 2020 GwtMaterialDesign
  * %%
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,21 +20,45 @@
 package gwt.material.design.amcore.client.ui;
 
 import gwt.material.design.amcore.client.base.Sprite;
+import jsinterop.annotations.JsMethod;
 import jsinterop.annotations.JsProperty;
 import jsinterop.annotations.JsType;
 
 @JsType(isNative = true, namespace = "am4core")
 public class PointedShape extends Sprite {
 
+    /**
+     * A width of the pinter's (stem's) thick end (base) in pixels.
+     *
+     * @default 15
+     */
     @JsProperty
-    public double pointerBaseWidth;
+    public int pointerBaseWidth;
 
+    /**
+     * A length of the pinter (stem) in pixels.
+     *
+     * @default 10
+     */
     @JsProperty
     public int pointerLength;
 
+    /**
+     * X coordinate the shape is pointing to.
+     */
     @JsProperty
-    public double pointerX;
+    public int pointerX;
 
+    /**
+     * Y coordinate the shape is pointing to.
+     */
     @JsProperty
-    public double pointerY;
+    public int pointerY;
+
+    /***
+     * Constructor
+     */
+    @JsMethod
+    public native PointedShape constructor();
+
 }

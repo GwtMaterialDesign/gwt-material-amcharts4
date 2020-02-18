@@ -2,7 +2,7 @@
  * #%L
  * GwtMaterial
  * %%
- * Copyright (C) 2015 - 2018 GwtMaterialDesign
+ * Copyright (C) 2015 - 2020 GwtMaterialDesign
  * %%
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,13 +19,23 @@
  */
 package gwt.material.design.amcore.client.ui;
 
-import gwt.material.design.amcore.client.base.Sprite;
+import jsinterop.annotations.JsMethod;
 import jsinterop.annotations.JsProperty;
 import jsinterop.annotations.JsType;
 
 @JsType(isNative = true, namespace = "am4core")
-public class PointedRectangle extends Sprite {
+public class PointedRectangle extends PointedShape{
 
+    /**
+     * Radius of rectangle's border in pixels.
+     */
     @JsProperty
     public int cornerRadius;
+
+    /***
+     * Constructor
+     */
+    @JsMethod
+    public native PointedRectangle constructor();
+
 }
