@@ -58,7 +58,12 @@ public class Export {
     public Color backgroundColor;
 
     /**
-     * reference to a container to be used to place ExportMenu in.
+     *
+     * @JsPropert
+     * /**
+     * Holds an array of data field names. If set, exported data fields will try to maintain this order.Holds an array of data field names. If set, exported data fields will try to maintain this order.Holds an array of data field names. If set, exported data fields will try to maintain this order.y
+     * public String[
+ dataFieldsOrder;     * reference to a container to be used to place ExportMenu in.
      */
     @JsProperty
     public Element container;
@@ -68,6 +73,14 @@ public class Export {
      */
     @JsProperty
     public Object data;
+
+    /**
+     * Holds an array of data field names. If set, exported data fields will try to maintain this order.
+     *
+     * If not set (default), the export will try to maintain the same order as in source data, or as in dataFields (if set).
+     */
+    @JsProperty
+    public String[] dataFieldsOrder;
 
     /**
      * Data fields in { field: fieldName } format. Those are used for exporting in data formats to name the columns.

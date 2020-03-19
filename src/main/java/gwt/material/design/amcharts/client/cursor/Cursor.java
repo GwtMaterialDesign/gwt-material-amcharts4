@@ -59,4 +59,7 @@ public class Cursor extends Container {
 
     @JsMethod
     public native void triggerUp(Point point);
+
+    @JsMethod
+    public native void triggerMove(Point point, String stick, boolean force);
 }

@@ -54,6 +54,9 @@ public class MapPolygon extends MapObject {
     public MapPolygonSeries series;
 
     @JsProperty
+    public double precision;
+
+    @JsProperty
     public DictionaryTemplate<String, SpriteState<MapPolygonProperties>> states;
 
     @JsProperty

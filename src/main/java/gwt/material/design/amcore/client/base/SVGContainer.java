@@ -55,6 +55,9 @@ public class SVGContainer extends Sprite {
     @JsProperty
     public double width;
 
+    @JsProperty
+    public Element readerAlertElement;
+
     @JsMethod
     public native void closeAllPopups();
 
@@ -70,7 +73,6 @@ public class SVGContainer extends Sprite {
     @JsMethod
     public native Modal openModal(String text, String title);
 
-
     @JsMethod
     public native Modal openModal(String text);
 
@@ -79,4 +81,7 @@ public class SVGContainer extends Sprite {
 
     @JsMethod
     public native Popup openPopup(String text);
+
+    @JsMethod
+    public native void readerAlert(String text);
 }

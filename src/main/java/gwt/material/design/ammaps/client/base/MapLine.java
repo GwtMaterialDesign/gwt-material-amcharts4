@@ -58,6 +58,9 @@ public class MapLine extends MapObject {
     @JsProperty
     public boolean shortestDistance;
 
+    @JsProperty
+    public double precision;
+
     @JsMethod
     public native void copyFrom(MapLine source);
 

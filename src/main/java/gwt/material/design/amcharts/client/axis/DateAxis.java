@@ -67,6 +67,9 @@ public class DateAxis extends ValueAxis {
     public boolean skipEmptyPeriods;
 
     @JsProperty
+    public JsDate tooltipDate;
+
+    @JsProperty
     public String tooltipDateFormat;
 
     @JsProperty
