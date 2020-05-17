@@ -28,8 +28,8 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.encoding>UTF-8</project.encoding>
-        <tbroyer.version>1.0-rc-9</tbroyer.version>
-        <gwt.version>2.8.2</gwt.version>
+        <tbroyer.version>1.0.0</tbroyer.version>
+        <gwt.version>2.9.0</gwt.version>
         <gmd.jquery.version>${project.version}</gmd.jquery.version>
         <webappDirectory>${project.build.directory}/${project.build.finalName}</webappDirectory>
     </properties>
