@@ -55,5 +55,4 @@ public class Bullet extends Container {
 
     @JsMethod
     public native void deepInvalidate();
-
 }

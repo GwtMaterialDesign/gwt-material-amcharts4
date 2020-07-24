@@ -27,5 +27,8 @@ import jsinterop.annotations.JsType;
 public class IComponentDataFields {
 
     @JsProperty
+    public String id;
+
+    @JsProperty
     public String data;
 }

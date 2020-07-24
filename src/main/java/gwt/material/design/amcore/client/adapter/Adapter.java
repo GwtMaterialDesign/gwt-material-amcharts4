@@ -21,12 +21,9 @@ package gwt.material.design.amcore.client.adapter;
 
 import gwt.material.design.amcore.client.events.EventDispatcher;
 import gwt.material.design.jquery.client.api.Functions;
-import jsinterop.annotations.JsMethod;
-import jsinterop.annotations.JsPackage;
-import jsinterop.annotations.JsProperty;
-import jsinterop.annotations.JsType;
+import jsinterop.annotations.*;
 
-@JsType(isNative = true, namespace = JsPackage.GLOBAL)
+@JsType(isNative = true, name = "Object", namespace = JsPackage.GLOBAL)
 public class Adapter<T, V> {
 
     @JsProperty

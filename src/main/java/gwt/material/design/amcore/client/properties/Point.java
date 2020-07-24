@@ -19,6 +19,7 @@
  */
 package gwt.material.design.amcore.client.properties;
 
+import jsinterop.annotations.JsOverlay;
 import jsinterop.annotations.JsPackage;
 import jsinterop.annotations.JsProperty;
 import jsinterop.annotations.JsType;
@@ -31,4 +32,13 @@ public class Point {
 
     @JsProperty
     public double y;
+
+
+    @JsOverlay
+    public static final Point create(double x, double y) {
+        Point point = new Point();
+        point.x = x;
+        point.y = y;
+        return point;
+    }
 }

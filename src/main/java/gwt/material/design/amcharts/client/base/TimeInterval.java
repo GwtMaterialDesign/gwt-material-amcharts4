@@ -19,6 +19,7 @@
  */
 package gwt.material.design.amcharts.client.base;
 
+import jsinterop.annotations.JsOverlay;
 import jsinterop.annotations.JsPackage;
 import jsinterop.annotations.JsProperty;
 import jsinterop.annotations.JsType;
@@ -34,4 +35,12 @@ public class TimeInterval {
      */
     @JsProperty
     public String timeUnit;
+
+    @JsOverlay
+    public static final TimeInterval create(int count, String timeUnit) {
+        TimeInterval timeInterval = new TimeInterval();
+        timeInterval.count = count;
+        timeInterval.timeUnit = timeUnit;
+        return timeInterval;
+    }
 }

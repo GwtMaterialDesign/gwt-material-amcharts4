@@ -60,4 +60,7 @@ public class XYSeries extends Series {
 
     @JsProperty
     public XYSeriesDataFields dataFields;
+
+    @JsProperty
+    public XYSeriesDataFields groupFields;
 }

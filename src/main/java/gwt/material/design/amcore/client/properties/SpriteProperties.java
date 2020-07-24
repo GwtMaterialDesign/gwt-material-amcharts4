@@ -102,25 +102,25 @@ public class SpriteProperties {
     public double maxHeight;
 
     @JsProperty
-    public Number maxWidth;
+    public int maxWidth;
 
     @JsProperty
-    public Number maxX;
+    public int maxX;
 
     @JsProperty
-    public Number maxY;
+    public int maxY;
 
     @JsProperty
-    public Number minHeight;
+    public int minHeight;
 
     @JsProperty
-    public Number minWidth;
+    public int minWidth;
 
     @JsProperty
-    public Number minX;
+    public int minX;
 
     @JsProperty
-    public Number minY;
+    public int minY;
 
     @JsProperty
     public boolean nonScaling;

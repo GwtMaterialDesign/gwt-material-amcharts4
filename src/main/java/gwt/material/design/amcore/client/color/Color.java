@@ -27,10 +27,9 @@ import jsinterop.annotations.JsType;
 @JsType(isNative = true, namespace = "am4core", name = "color")
 public class Color {
 
-    public Color() {}
-
     @JsConstructor
-    public Color(String color) {}
+    public Color(String color) {
+    }
 
     @JsProperty
     public double alpha;
