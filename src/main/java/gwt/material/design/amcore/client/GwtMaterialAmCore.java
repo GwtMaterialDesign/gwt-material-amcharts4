@@ -28,6 +28,8 @@ import gwt.material.design.amcore.client.resources.ThemeClientBundle;
 
 public class GwtMaterialAmCore implements EntryPoint {
 
+    private static boolean enableSourceMap = false;
+
     @Override
     public void onModuleLoad() {
         // Inject Am4chart resources
@@ -45,10 +47,26 @@ public class GwtMaterialAmCore implements EntryPoint {
         String text = resource.getText() + (sourceUrl ?
                 "//# sourceURL=" + resource.getName() + ".js" : "");
 
+        if (!enableSourceMap) {
+            String sourceMapImport = "//# sourceMappingURL=";
+            if (text.contains(sourceMapImport)) {
+                sourceMapImport = text.substring(text.indexOf(sourceMapImport), text.length());
+            }
+            text = text.replace(sourceMapImport, "");
+        }
+
         // Inject the script resource
         ScriptInjector.fromString(text)
                 .setWindow(ScriptInjector.TOP_WINDOW)
                 .setRemoveTag(removeTag)
                 .inject();
+    }
+
+    public static void setEnableSourceMap(boolean enableSourceMap) {
+        GwtMaterialAmCore.enableSourceMap = enableSourceMap;
+    }
+
+    public static boolean isEnableSourceMap() {
+        return enableSourceMap;
     }
 }
