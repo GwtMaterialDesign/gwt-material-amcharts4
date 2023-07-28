@@ -38,7 +38,7 @@
         <connection>scm:git:git@github.com:GwtMaterialDesign/gwt-material.git</connection>
         <developerConnection>scm:git:git@github.com:GwtMaterialDesign/gwt-material.git</developerConnection>
         <url>http://github.com/GwtMaterialDesign/gwt-material</url>
-        <tag>v2.7.1</tag>
+        <tag>v2.8.0</tag>
     </scm>
 
     <licenses>
