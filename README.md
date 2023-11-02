@@ -13,12 +13,12 @@ AmCharts V4 Official Documentation can be found [here](https://www.amcharts.com/
 
 
 ## Maven
-### Current Version 2.8.2
+### Current Version 2.8.3
 ```xml
 <dependency>
     <groupId>com.github.gwtmaterialdesign</groupId>
     <artifactId>gwt-material-am4charts</artifactId>
-    <version>2.8.2</version>
+    <version>2.8.3</version>
 </dependency>
 ```
 
