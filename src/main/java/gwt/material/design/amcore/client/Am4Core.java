@@ -70,6 +70,9 @@ public class Am4Core {
     public static native Object create(String div, Object object);
 
     @JsMethod(namespace = "am4core")
+    public static native Object createFromConfig(Object config, String div, String type);
+
+    @JsMethod(namespace = "am4core")
     public static native Object create(Element div, Object chartObject);
 
     @JsOverlay
