@@ -39,6 +39,9 @@ public class Container extends Sprite {
     @JsProperty
     public List<Sprite> children;
 
+    @JsProperty
+    public Object data;
+
     /**
      * @see Align
      */
